@@ -1,19 +1,19 @@
 {
-  "name": "废文网",
+  "name": "废文网test",
   "version": 105,
   "category": 0,
   "url": "https://www.sosad.fun",
   "charset": "utf-8",
   "metadata": {
-    "name": [".bigger-10"],
-    "author": [".pull-right"],
-    "cover": ["a > img@attr->src"],
+    "name": ["a.bigger-10",".font-2"],
+    "author": [".pull-right","body > div:nth-child(4) > div > div:nth-child(2) > div.panel-body > div.article-body.text-center > div:nth-child(1) > div > div:nth-child(1) > a"],
+    "cover": [" "],
     "summary": ["a > p", ".u"],
     "category": [".tuijian > a.tag-bg-blue"],
     "status": [".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
     "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
     "lastChapter": [".book_info > .upd > a"],
-    "link": ["a@attr->href"],
+    "link": ["body > div:nth-child(4) > div > div:nth-child(4) > div.panel-body > article > div > div > span:nth-child(1) > span > a@attr->href"],
     "catalog": []
   },
   "catalog": {
