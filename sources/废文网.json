@@ -2,7 +2,7 @@
   "name": "废文网",
   "version": 105,
   "category": 0,
-  "url": "https://www.sosad.fun/",
+  "url": "https://www.sosad.fun",
   "charset": "utf-8",
   "metadata": {
     "name": ["。bigger-10"],
@@ -35,7 +35,7 @@
     "link": [
       {
         "name": "编辑推荐",
-        "link": "https://www.sosad.fun/recommend_records/"
+        "link": "https://www.sosad.fun/recommend_records"
       },
       {
         "name": "原创小说",
