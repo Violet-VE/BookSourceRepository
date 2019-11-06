@@ -5,7 +5,7 @@
   "url": "https://www.sosad.fun/",
   "charset": "utf-8",
   "metadata": {
-    "name": [".bigger-10"],
+    "name": ["。bigger-10"],
     "author": [".pull-right"],
     "cover": ["a > img@attr->src"],
     "summary": ["a > p", ".u"],
@@ -34,20 +34,20 @@
   "rank": {
     "link": [
       {
-        "name": "排行榜",
-        "link": "http://zuopinj.com/alltotal/"
+        "name": "编辑推荐",
+        "link": "https://www.sosad.fun/recommend_records/"
       },
       {
-        "name": "推荐榜",
-        "link": "http://zuopinj.com/allisgood/"
+        "name": "原创小说",
+        "link": "https://www.sosad.fun/channels/1"
       },
       {
-        "name": "下载榜",
-        "link": "http://zuopinj.com/alldown/"
+        "name": "同人衍生",
+        "link": "https://www.sosad.fun/channels/2"
       },
       {
-        "name": "更新榜",
-        "link": "http://zuopinj.com/newupdate/"
+        "name": "随笔",
+        "link": "https://www.sosad.fun/channels/6"
       }
     ],
     "list": ".listbox > ul > li",
