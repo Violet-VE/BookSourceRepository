@@ -28,8 +28,8 @@
     "text": "#htmlContent"
   },
   "search": {
-    "link": "http://so.zuopinj.com/search/index.php@post->tbname=bookname&show=title&tempid=3&keyboard=${key}",
-    "list": ".search-bookele"
+    "link": "http://https://www.sosad.fun/search?search=${key}",
+    "list": ".row"
   },
   "rank": {
     "link": [
