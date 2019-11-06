@@ -5,7 +5,7 @@
   "url": "https://www.sosad.fun",
   "charset": "utf-8",
   "metadata": {
-    "name": ["。bigger-10"],
+    "name": [".bigger-10"],
     "author": [".pull-right"],
     "cover": ["a > img@attr->src"],
     "summary": ["a > p", ".u"],
