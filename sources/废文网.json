@@ -1,12 +1,12 @@
 {
-  "name": "作品集",
-  "version": 101,
+  "name": "废文网",
+  "version": 105,
   "category": 0,
-  "url": "http://zuopinj.com",
+  "url": "https://www.sosad.fun/",
   "charset": "utf-8",
   "metadata": {
-    "name": ["a > h3", "a@js->${this}.match('《(.*)》')[1]"],
-    "author": [".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a"],
+    "name": ["bigger-10"],
+    "author": [".pull-right"],
     "cover": ["a > img@attr->src"],
     "summary": ["a > p", ".u"],
     "category": [".tuijian > a.tag-bg-blue"],
