@@ -17,7 +17,7 @@
     "catalog": [".ROW>DIV:NTH-CHILD(2)>A@ATTR->HREF"]
   },
   "catalog": {
-    "list": ".table > tbody > tr ",
+    "list": ".table > tbody",
     "orderBy": 0,
    
     "chapter": {
