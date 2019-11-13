@@ -17,11 +17,11 @@
     "catalog": [""]
   },
   "catalog": {
-    "list": "TD:NTH-CHILD(1)",
+    "list": "span > div:nth-child(1)",
     "orderBy": 0,
     "chapter": {
-      "name": "span > div:nth-child(1) > a",
-      "link": "span > div:nth-child(1) > a@ATTR->HREF"
+      "name": "a",
+      "link": "a@ATTR->HREF"
     }
   },
   "content": {
