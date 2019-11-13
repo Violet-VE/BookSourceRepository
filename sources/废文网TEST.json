@@ -14,10 +14,10 @@
     "update": [""],
     "lastChapter": [""],
     "link": [".bigger-10@attr->href"],
-    "catalog": [".ROW>DIV:NTH-CHILD(2)>A@ATTR->HREF"]
+    "catalog": [""]
   },
   "catalog": {
-    "list": ".table > tbody",
+    "list": ".table >tbody",
     "orderBy": 0,
    
     "chapter": {
