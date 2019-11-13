@@ -19,10 +19,6 @@
   "catalog": {
     "list": "TD:NTH-CHILD(1)",
     "orderBy": 0,
-    "booklet": {
-      "name": ".volumnfont",
-      "list": "span > div:nth-child(1)"
-    },
     "chapter": {
       "name": "span > div:nth-child(1) > a",
       "link": "span > div:nth-child(1) > a@ATTR->HREF"
