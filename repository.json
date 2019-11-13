@@ -3,21 +3,14 @@
   "summary": "更新：废文网",
   "list": [
     
-   {
-      "name": "废文网test",
-      "url": "https://www.sosad.fun",
-      "category": 1,
-      "rank": 4,
-      "auth": false,
-      "version": 100
-    },
+
      {
       "name": "纵横",
       "url": "http://www.zongheng.com",
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 100
+      "version": 105
     }
   ]
 }
