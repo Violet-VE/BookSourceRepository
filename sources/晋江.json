@@ -1,19 +1,19 @@
 {
   "name": "晋江",
-  "version": 107,
+  "version": 108,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "utf-8",
   "metadata": {
-    "name": ["H3>A,"],
-    "author": ["INFO>A"],
-    "cover": [" "],
-    "summary": [".INTRO"],
+    "name": ["H3>A","H1>SPAN"],
+    "author": [".INFO>A","h2 > a > span"],
+    "cover": [".smallreadbody>IMG@attr->src"],
+    "summary": [".INTRO","#novelintro"],
     "category": [""],
     "status": [""],
     "update": [""],
     "lastChapter": [""],
-    "link": [".TITLE>A@ATR->HREF"],
+    "link": ["H3>A@ATR->HREF"],
     "catalog": [""]
   },
   "catalog": {
@@ -29,7 +29,7 @@
     }
   },
   "content": {
-    "text": "#search_result > div"
+    "text": ".noveltext"
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
