@@ -1,6 +1,6 @@
 {
   "name": "晋江",
-  "version": 105,
+  "version": 106,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "utf-8",
@@ -32,7 +32,7 @@
     "text": ".noveltext"
   },
   "search": {
-  "link": "http://www.jjwxc.net/search.php?kw=${key}=1",
+  "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
     "list": "#search_result > div"
   }
 }
