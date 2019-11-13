@@ -11,7 +11,7 @@
       "auth": false,
       "version": 108
     },
-    
+
 
     {
       "name": "晋江",
@@ -19,10 +19,10 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version: 105
+      "version": 105
     },
-    
-    
+
+
     {
       "name": "纵横",
       "url": "http://www.zongheng.com",
@@ -31,9 +31,7 @@
       "auth": false,
       "version": 105
     }
-    
-    
-    
-    
+
+      
   ]
 }
