@@ -33,6 +33,6 @@
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}=1",
-    "list": "H3"
+    "list": "#search_result > div"
   }
 }
