@@ -14,7 +14,7 @@
     "update": [""],
     "lastChapter": [""],
     "link": [".bigger-10@attr->href"],
-    "catalog": [""]
+    "catalog": [".row > div:nth-child(2) > a@attr->href"]
   },
   "catalog": {
     "list": ".table",
