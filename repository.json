@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "更新：废文网",
+  "summary": "废文网",
   "list": [
        {
       "name": "纵横",
@@ -15,9 +15,9 @@
       "name": "废文网",
       "url": "https://www.sosad.fun",
       "category": 1,
-      "rank": 4,
+      "rank": 0,
       "auth": false,
-      "version": 100
+      "version": 105
     }
     
     
