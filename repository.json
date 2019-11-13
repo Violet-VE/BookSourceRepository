@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": " 111  ",
+  "summary": " 112  ",
   "list": [
      
     {
@@ -30,8 +30,16 @@
       "rank": 0,
       "auth": false,
       "version": 105
+    },
+    
+    {
+      "name": "po18",
+      "url": "https://www.po18.tw",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
     }
-
       
   ]
 }
