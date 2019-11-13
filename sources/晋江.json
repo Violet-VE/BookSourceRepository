@@ -1,0 +1,38 @@
+{
+  "name": "晋江",
+  "version": 105,
+  "category": 3,
+  "url": "http://www.jjwxc.net",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["H3>A,"],
+    "author": ["INFO>A"],
+    "cover": [" "],
+    "summary": [".INTRO"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": [""],
+    "link": [".TITLE>A@ATR->HREF"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": "TD:NTH-CHILD(1)",
+    "orderBy": 0,
+    "booklet": {
+      "name": ".volumnfont",
+      "list": "span > div:nth-child(1)"
+    },
+    "chapter": {
+      "name": "span > div:nth-child(1) > a",
+      "link": "span > div:nth-child(1) > a@ATTR->HREF"
+    }
+  },
+  "content": {
+    "text": ".noveltext"
+  },
+  "search": {
+  "link": "http://www.jjwxc.net/search.php?kw=${key}=1",
+    "list": "H3"
+  }
+}
