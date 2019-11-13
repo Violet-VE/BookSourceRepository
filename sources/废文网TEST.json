@@ -24,7 +24,7 @@
     }
   },
   "content": {
-    "text": ".main-text>P"
+    "text": ".H5"
   },
   "search": {
   "link": "https://www.sosad.fun/search?search=${key}",
