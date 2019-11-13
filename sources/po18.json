@@ -1,0 +1,37 @@
+"name": "po18",
+  "version": 101,
+  "category": 3,
+  "url": "https://www.po18.tw",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [".book_name"],
+    "author": [".book_author"],
+    "cover": ["img@attr->SRC",".book_cover>IMG@attr->SRC"],
+    "summary": [".intro",".B_I_content"],
+    "category": [".book_intro_tags"],
+    "status": [".statu"],
+    "update": [""],
+    "lastChapter": [".chapter"],
+    "link": [".book_name>A@attr->href"],
+    "catalog": [".toolbar > a:nth-child(2)@ATTR->HREF"]
+  },
+  "catalog": {
+    "list": ".l_counter",
+    "orderBy": 0,
+    "chapter": {
+      "name": ".l_chaptname",
+      "link": ".l_chaptname@ATTR->HREF"
+    }
+  },
+  "content": {
+    "text": ".main-text>P"
+  },
+  "search": {
+    "link": "https://www.po18.tw/search/index@post->_po18rf-tk001=Tkvn5qbghnHEYD8wh-mNtd7Y_WQC6Gaqml48rztxMG4gAp2ryoTOR74wR1Xes7XHkLeqAnfQKf-iBnn5bCR7Ag%3D%3D&searchtype=book&name==${key}",
+    "list": ".BOOK"
+  }
+
+
+   
+  }
+}
