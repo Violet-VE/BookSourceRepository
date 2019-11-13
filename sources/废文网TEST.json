@@ -7,22 +7,20 @@
   "metadata": {
     "name": [".bigger-10",".font-2"],
     "author": [".pull-right",".H5>DIV:NTH-CHILD(1)"],
-    "cover": [" "],
     "summary": [".h5:NTH-CHILD(4)"],
     "category": [".H5>DIV:NTH-CHILD(4)"],
     "status": [""],
     "update": [""],
     "lastChapter": [""],
     "link": [".bigger-10@attr->href"],
-    "catalog": [".row > div:nth-child(2) > a@attr->href"]
+    "catalog": [".row>div:nth-child(2)>a@attr->href"]
   },
   "catalog": {
-    "list": ".table",
+    "list": ".TABLE>tbody",
     "orderBy": 0,
-   
     "chapter": {
-      "name": ".table > tbody > tr > th:nth-child(1) > a",
-      "link": ".table > tbody > tr > th:nth-child(1) > a@ATTR->HREF"
+      "name": "a",
+      "link": "a@ATTR->HREF"
     }
   },
   "content": {
