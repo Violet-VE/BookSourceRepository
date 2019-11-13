@@ -22,7 +22,7 @@
     "booklet": {
       "name": ".volume@js->${this}.match('](.*)共[0-9]+章')[1]",
       "list": "li"
-    }
+    },
     
     "chapter": {
       "name": "a",
@@ -35,20 +35,5 @@
   "search": {
     "link": "http://search.zongheng.com/s?keyword=${key}",
     "list": ".search-result-list"
-  },
-  "rank": {
-    "link": [
-      {
-        "name": "",
-        "link": ""
-      },
-      {
-        "name": "",
-        "link": ""
-      },
-     
-    ]
-
-   
   }
 }
