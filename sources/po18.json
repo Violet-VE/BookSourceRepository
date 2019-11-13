@@ -30,8 +30,13 @@
   "search": {
     "link": "https://www.po18.tw/search/index@post->_po18rf-tk001=Tkvn5qbghnHEYD8wh-mNtd7Y_WQC6Gaqml48rztxMG4gAp2ryoTOR74wR1Xes7XHkLeqAnfQKf-iBnn5bCR7Ag%3D%3D&searchtype=book&name==${key}",
     "list": ".BOOK"
+  },
+
+ "auth": {
+    "login": "https://members.po18.tw/apps/login.php",
+    "cookie": "https://members.po18.tw",
+    "valid": "",
+    "order": ""
   }
-
-
   
 }
