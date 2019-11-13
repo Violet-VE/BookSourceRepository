@@ -1,6 +1,6 @@
 {
   "name": "废文网TEST",
-  "version": 107,
+  "version": 108,
   "category": 3,
   "url": "https://www.sosad.fun",
   "charset": "utf-8",
@@ -16,7 +16,7 @@
     "catalog": [".row>div:nth-child(2)>a@attr->href"]
   },
   "catalog": {
-    "list": ".TABLE>tbody",
+    "list": ".TABLE>tbody>TR>th:nth-child(1)",
     "orderBy": 0,
     "chapter": {
       "name": "a",
