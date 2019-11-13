@@ -2,7 +2,7 @@
   "name": "",
   "version": 105,
   "category": 0,
-  "url": "http://www.zongheng.com/",
+  "url": "http://www.zongheng.com",
   "charset": "utf-8",
   "metadata": {
     "name": ["h2>a",".book-name"],
@@ -28,7 +28,7 @@
     "text": "#htmlContent"
   },
   "search": {
-    "link": "https://m.zongheng.com/h5/search?keywords=${key}",
+    "link": "http://search.zongheng.com/s?keyword=${key}",
     "list": ".search-result-list"
   },
   "rank": {
