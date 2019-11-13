@@ -1,0 +1,61 @@
+{
+  "name": "",
+  "version": 105,
+  "category": 0,
+  "url": "http://www.zongheng.com/",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["h2>a",".book-name"],
+    "author": [".bookinfo>a:nth-child(1)"],
+    "cover": ["img@attr->src"],
+    "summary": ["p", ""],
+    "category": [".bookinfo>a:nth-child(2)",".book-label>a:nth-child(2)"],
+    "status": [".book-label>a:nth-child(2)"],
+    "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
+    "lastChapter": [""],
+    "link": ["h2>a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": ".book_list > ul > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#htmlContent"
+  },
+  "search": {
+    "link": "https://m.zongheng.com/h5/search?keywords=${key}",
+    "list": ".search-result-list"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "排行榜",
+        "link": "http://zuopinj.com/alltotal/"
+      },
+      {
+        "name": "推荐榜",
+        "link": "http://zuopinj.com/allisgood/"
+      },
+      {
+        "name": "下载榜",
+        "link": "http://zuopinj.com/alldown/"
+      },
+      {
+        "name": "更新榜",
+        "link": "http://zuopinj.com/newupdate/"
+      }
+    ],
+    "list": ".listbox > ul > li",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "index_${index}.html"
+    }
+  }
+}
