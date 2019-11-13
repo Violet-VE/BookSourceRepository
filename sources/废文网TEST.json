@@ -7,18 +7,19 @@
   "metadata": {
     "name": [".bigger-10",".font-2"],
     "author": [".pull-right",".H5>DIV:NTH-CHILD(1)"],
-    "cover": [""],
+    "cover": [" "],
     "summary": [".h5:NTH-CHILD(4)"],
     "category": [".H5>DIV:NTH-CHILD(4)"],
     "status": [""],
-    "update": [".H5>DIV:NTH-CHILD(2)"],
+    "update": [""],
     "lastChapter": [""],
     "link": [".bigger-10@attr->href"],
     "catalog": [".ROW>DIV:NTH-CHILD(2)>A@ATTR->HREF"]
   },
   "catalog": {
-    "list": ".book_list > ul > li",
+    "list": ".TABLE",
     "orderBy": 0,
+   
     "chapter": {
       "name": ".table > tbody > tr > th:nth-child(1) > a",
       "link": ".table > tbody > tr > th:nth-child(1) > a@ATTR->HREF"
@@ -28,11 +29,7 @@
     "text": ".main-text>P"
   },
   "search": {
-    "link": "https://www.sosad.fun/search?search=${key}",
+  "link": "https://www.sosad.fun/search?search=${key}",
     "list": ".row"
-  }
-
-
-   
   }
 }
