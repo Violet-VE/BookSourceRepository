@@ -1,9 +1,9 @@
 {
   "name": "wenmoux",
-  "summary": "废文网TEST",
+  "summary": "晋江",
   "list": [
      
-      {
+    {
       "name": "废文网TEST",
       "url": "https://www.sosad.fun",
       "category": 1,
@@ -13,7 +13,7 @@
     },
     
 
-         {
+    {
       "name": "晋江",
       "url": "http://www.jjwxc.net",
       "category": 1,
@@ -23,7 +23,7 @@
     },
     
     
-          {
+    {
       "name": "纵横",
       "url": "http://www.zongheng.com",
       "category": 1,
