@@ -2,22 +2,20 @@
 
 The repository is based on GitHub to provide an open book source repository for the Deepink, and welcomes the introduction of new book sources.
 
-仓库地址：https://raw.githubusercontent.com/chimisgo/BookSourceRepository/master/repository.json
+
 
 ##### 目前已收录
 
 | 书源 | API | 类型 | 排行榜 | 账号 | 版本 |
 | :----: | ------------- | :--: | :----: | :----: | :---: |
-| My716 | http://api.zhuishushenqi.com | 网文 | 4 | 否 | 1.0.6 |
-| 作品集 | http://zuopinj.com | 出版 | 4 | 否 | 1.0.1 |
-| 稻草人书屋 | https://www.daocaorenshuwu.com | 综合 | 0 | 否 | 1.0.1 |
-| 笔趣阁 | https://www.biqubao.com | 网文 | 0 | 否 | 1.0.2 |
-| 亲小说 | https://www.qinxiaoshuo.com | 轻小说 | 2 | 否 | 1.0.1 |
-| 轻之文库 | https://www.linovel.net | 轻小说 | 24 | 否 | 1.0.0 |
-| 斋书苑 | https://www.zhaishuyuan.com | 网文 | 0 | 否 | 1.0.1 |
-| 我的小书屋 | https://m.sanyuedev.top | 网文 | 3 | 否 | 1.0.0 |
-
+| 废文网 | https://www.sosad.fun/ | 网文 | 0 | 是 | 1.0.6 |
+| 晋江 | http://www.jjwxc.net | 网文 | 0 | 是 | 1.0.1 |
+| 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
 ---
+
+
+### 目前还是半成品 仅仅能搜索看书
+
 
 ### 书源制作
 准备工作，需了解基础的Html/CSS/JavaScript内容，以及Jsoup选择器功能。
