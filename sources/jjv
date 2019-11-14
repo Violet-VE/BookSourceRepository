@@ -1,8 +1,8 @@
 {
-  "name": "晋江V章节",
-  "version": 100,
+  "name": "jjv",
+  "version": 110,
   "category": 3,
-  "url": "http://www.jjwxc.net",
+  "url": "http://www.jjwxc.net/",
   "charset": "GBK",
   "metadata": {
     "name": ["H3>A","H1>SPAN"],
