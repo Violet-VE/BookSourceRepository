@@ -1,0 +1,46 @@
+{
+    "name": "17k",
+    "version": 100,
+    "category": 3,
+    "url": "https://www.17k.com",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": ["dt>a",".BookInfo > div.Info.Sign > h1 > a"],
+      "author": [".bq>span:nth-child(1)>a"],
+      "cover": ["IMG@attr->src"],
+      "summary": ["ul>li:nth-child(3)",".intro"],
+      "category": [".bq>span:nth-child(2)>a"],
+      "status": [""],
+      "update": ["ul > li:nth-child(4) > code"],
+      "lastChapter": [""],
+      "link": ["dt>a@attr->href"],
+      "catalog": [".read>a@attr->href"]
+    },
+    "catalog": { 
+      "list": ".Volume>DD",
+      "orderBy": 0,
+      "chapter": {
+        "name": "A",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": "p"
+    },
+    "search": {
+    "link": "https://search.17k.com/search.xhtml?c.st=0&c.q=${key}",
+      "list": ".search-list>.textlist:nth-child(n+3)"
+    },
+
+
+  "auth": {
+    "login": "https://passport.17k.com/login/",
+    "cookie": "https://www.17k.com",
+    "valid": "",
+    "order": ""
+  }
+
+
+
+  }
+  
