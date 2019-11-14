@@ -1,6 +1,6 @@
 {
   "name": "晋江",
-  "version": 111,
+  "version": 112,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -17,11 +17,11 @@
     "catalog": []
   },
   "catalog": { 
-    "list": "tr:nth-child(n+4) > td:nth-child(1)",
+    "list": "TD>span > div",
     "orderBy": 0,
     "chapter": {
-      "name": "span > div>a",
-      "link": "span > div>a@attr->href"
+      "name": "a",
+      "link": "a@attr->href"
     }
   },
   "content": {
