@@ -1,6 +1,6 @@
  {
     "name": "TEST101",
-    "version": 100,
+    "version": 101,
     "category": 3,
     "url": "https://www.ciweimao.com",
     "charset": "UTF-8",
@@ -39,15 +39,10 @@
     "search": {
     "link": "https://www.ciweimao.com/get-search-book-list/0-0-0-0-0-0/%E5%85%A8%E9%83%A8/${key}/1",
       "list": ".rank-book-list>ul>li"
-    },
+    }
 
 
-  "auth": {
-    "login": "https://passport.17k.com/login/",
-    "cookie": "https://www.17k.com",
-    "valid": "",
-    "order": ""
-  }
+
 
 
 
