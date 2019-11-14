@@ -22,7 +22,7 @@
  "booklet": {
       "name": "dl:nth-child(N+4) > dt > span.tit",
       "list": ".Volume"
-    },.Volume
+    },
       "chapter": {
         "name": "dd > a",
         "link": "a@attr->href"
