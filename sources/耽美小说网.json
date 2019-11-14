@@ -1,0 +1,39 @@
+ {
+    "name": "耽美小说网",
+    "version": 100,
+    "category": 3,
+    "url": "https://www.danmei.la",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": ["tr>td:nth-child(1)>a","h1"],
+      "author": ["tr>td:nth-child(3)"],
+      "cover": ["IMG@attr->src"],
+      "summary": ["ul>li:nth-child(3)",".intro"],
+      "category": [""],
+      "status": ["tr>td:nth-child(6)"],
+      "update": ["tr>td:nth-child(5)"],
+      "lastChapter": ["tr>td:nth-child(1)"],
+      "link": ["tr>td:nth-child(1)>a@attr->href"],
+      "catalog": [".read>a@attr->href"]
+    },
+    "catalog": { 
+      "list": ".mulu>ul>li",
+      "orderBy": 0,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": ".yd_text2"
+    },
+    "search": {
+    "link": "https://www.danmei.la/modules/article/search.php?searchtype=articlename&searchkey=${key}",
+      "list": "tbody > tr:nth-child(n+2)"
+    }
+
+
+
+
+
+  }
