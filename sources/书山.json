@@ -1,0 +1,39 @@
+ {
+    "name": "书山",
+    "version": 101,
+    "category": 3,
+    "url": "http://shushan.zhangyue.net",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": [".book-info>a","p > span.book-name.arow"],
+      "author": [".gray-info > span.author-name",".author-name"],
+      "cover": ["ul > li> a > img@attr->src",".detail-info-mian > a > img@attr->src"],
+      "summary": ["ul > li> div > p",".right > div > pre:nth-child(1)"],
+      "category": [".gray-info > span:nth-child(2)"],
+      "status": [".gray-info > span:nth-child(3)"],
+      "update": [""],
+      "lastChapter": [""],
+      "link": [".book-info>a@attr->href"],
+      "catalog": [".book-nav > a:nth-child(2)@attr->href"]
+    },
+    "catalog": { 
+      "list": ".bookInfo-directory > div > div > ul > li",
+      "orderBy": 1,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": ".content > div > div.body-main > div.art_box > div > div"
+    },
+    "search": {
+    "link": "http://shushan.zhangyue.net/search/${key}/",
+      "list": ".result-list>ul>li"
+    }
+
+
+
+
+
+  }
