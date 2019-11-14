@@ -1,6 +1,6 @@
  {
     "name": "17k",
-    "version": 110,
+    "version": 111,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -17,7 +17,7 @@
       "catalog": [".read>a@attr->href"]
     },
     "catalog": { 
-      "list": ".Main.List > dl:nth-child(5) > dd",
+      "list": "body > div.Main.List > dl:nth-child(5) > dd",
       "orderBy": 0,
       "chapter": {
         "name": "a",
