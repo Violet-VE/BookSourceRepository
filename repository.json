@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "112 ",
+  "summary": "113 ",
   "list": [
      
     {
@@ -50,7 +50,15 @@
       "version": 100
     },  
     
-    
+       {
+      "name": "黑岩",
+      "url": "https://www.heiyan.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },  
+       
     
     
     {
