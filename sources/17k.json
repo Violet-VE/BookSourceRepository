@@ -1,6 +1,6 @@
  {
     "name": "17k",
-    "version": 103,
+    "version": 104,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -21,10 +21,10 @@
       "orderBy": 0,
  "booklet": {
       "name": "dl:nth-child(N+4) > dt > span.tit",
-      "list": "dd > a > span"
-    },
+      "list": ".Volume"
+    },.Volume
       "chapter": {
-        "name": "a",
+        "name": "dd > a",
         "link": "a@attr->href"
       }
     },
