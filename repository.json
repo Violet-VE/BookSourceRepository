@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "飞卢  ",
+  "summary": "115  ",
   "list": [
      
     {
@@ -34,14 +34,21 @@
     
     {
       "name": "飞卢",
-      "url": "https://b.faloo.com/",
+      "url": "https://b.faloo.com",
       "category": 1,
       "rank": 0,
       "auth": true,
       "version": 101
     },
         
-    
+    {
+      "name": "飞卢",
+      "url": "https://www.17k.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 100
+    },
     
     
     {
