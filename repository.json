@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "119",
+  "summary": "120",
   "list": [
      
     {
@@ -21,12 +21,12 @@
       "version": 110
     },
     {
-      "name": "晋江V章节",
-      "url": "http://www.jjwxc.net",
+      "name": "jjv",
+      "url": "http://www.jjwxc.net/",
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 100
+      "version": 110
     },
 
     {
