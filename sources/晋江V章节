@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": "A:NTH-CHILD(1)",
-      "link": "A:NTH-CHILD(1)@attr->href"
+      "link": "A:NTH-CHILD(1)@attr->rel"
     }
   },
   "content": {
