@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "jj112  ",
+  "summary": "飞卢  ",
   "list": [
      
     {
@@ -31,6 +31,18 @@
       "auth": false,
       "version": 105
     },
+    
+    {
+      "name": "飞卢",
+      "url": "https://b.faloo.com/",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },
+        
+    
+    
     
     {
       "name": "po18",
