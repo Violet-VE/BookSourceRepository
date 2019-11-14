@@ -1,0 +1,39 @@
+ {
+    "name": "黑岩",
+    "version": 100,
+    "category": 3,
+    "url": "https://www.heiyan.com",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": [".right > p.info > a",".hd > h1 > span"],
+      "author": [".info > span:nth-child(4) > a",".right > a > strong"],
+      "cover": [".left > a > img@attr->src"],
+      "summary": ["ul>li:nth-child(3)",".right > div > pre:nth-child(1)"],
+      "category": [".info > span:nth-child(5) > a > span"],
+      "status": [""],
+      "update": [".right > h4 > span"],
+      "lastChapter": [".right > h4 > a"],
+      "link": ["div.left > a@attr->href"],
+      "catalog": [".buttons.clearfix > a.index@attr->href"]
+    },
+    "catalog": { 
+      "list": ".bd > ul>*",
+      "orderBy": 1,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": "#ChapterContent10439776"
+    },
+    "search": {
+    "link": "https://www.heiyan.com/search/?queryString=${key}",
+      "list": "ul>.column-2"
+    }
+
+
+
+
+
+  }
