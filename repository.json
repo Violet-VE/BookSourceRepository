@@ -12,7 +12,6 @@
       "version": 111
     },
 
-
     {
       "name": "晋江",
       "url": "http://www.jjwxc.net",
@@ -20,6 +19,14 @@
       "rank": 0,
       "auth": true,
       "version": 110
+    },
+    {
+      "name": "晋江V章节",
+      "url": "http://www.jjwxc.net",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 100
     },
 
 
