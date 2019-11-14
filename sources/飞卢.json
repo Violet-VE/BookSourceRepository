@@ -1,0 +1,44 @@
+{
+    "name": "飞卢",
+    "version": 101,
+    "category": 3,
+    "url": "https://b.faloo.com/",
+    "charset": "GBK",
+    "metadata": {
+      "name": ["h1>a",".ni_10 > h1"],
+      "author": ["span:nth-child(2) > a",".ni_10 > a"],
+      "cover": ["img@attr->src",".ni_5 > a > img@attr->src"],
+      "summary": [".l_con>A","#con_tab11_box1 > a"],
+      "category": ["span:nth-child(3) > a"],
+      "status": [""],
+      "update": [""],
+      "lastChapter": [""],
+      "link": ["h1>a@attr->href"],
+      "catalog": []
+    },
+    "catalog": { 
+      "list": ".td_0",
+      "orderBy": 1,
+   
+      "chapter": {
+        "name": " .td_0>a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": "#content"
+    },
+    "search": {
+    "link": "https://b.faloo.com/l/0/1.html?t=1&k=${key}",
+      "list": ".l_bar"
+    },
+
+  "auth": {
+    "login": "https://u.faloo.com/regist/login.aspx?backurl=https%3A%2F%2Fb.faloo.com%2F",
+    "cookie": "https://b.faloo.com/",
+    "valid": "",
+    "order": ""
+  }
+
+
+  }
