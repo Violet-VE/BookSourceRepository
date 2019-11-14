@@ -30,5 +30,16 @@
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
     "list": "#search_result > div"
+  },
+  
+    "auth": {
+    "login": "http://www.jjwxc.net/#",
+    "cookie": "http://www.jjwxc.net",
+    "valid": "",
+    "order": ""
   }
+  
+  
+  
+  
 }
