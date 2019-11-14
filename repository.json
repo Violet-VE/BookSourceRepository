@@ -29,7 +29,6 @@
       "version": 100
     },
 
-
     {
       "name": "纵横",
       "url": "http://www.zongheng.com",
@@ -48,7 +47,7 @@
       "version": 101
     },
       
-      {
+    {
       "name": "耽美小说网",
       "url": "https://www.danmei.la",
       "category": 1,
@@ -56,9 +55,7 @@
       "auth": false,
       "version": 100
     },  
-
-    
-       {
+    {
       "name": "书山",
       "url": "http://shushan.zhangyue.net",
       "category": 1,
@@ -67,7 +64,7 @@
       "version": 101
     },  
            
-       {
+   {
       "name": "黑岩",
       "url": "https://www.heiyan.com",
       "category": 1,
@@ -85,8 +82,7 @@
       "version": 103
     },    
     
-    
-      {
+   {
       "name": "磨铁中文网",
       "url": "http://m.motie.com",
       "category": 1,
@@ -95,8 +91,7 @@
       "version": 100
     },    
       
-     
-      {
+    {
       "name": "读书369",
       "url": "http://www.dushu369.com",
       "category": 1,
@@ -105,11 +100,7 @@
       "version": 101
     },    
          
-    
-    
-    
-    
-    
+
     
     {
       "name": "17k",
