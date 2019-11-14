@@ -50,7 +50,14 @@
       "version": 101
     },
     
-    
+     {
+      "name": "TEST101",
+      "url": "https://www.ciweimao.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 105
+    },   
     {
       "name": "po18",
       "url": "https://www.po18.tw",
