@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "109 ",
+  "summary": "111 ",
   "list": [
      
     {
@@ -49,15 +49,7 @@
       "auth": true,
       "version": 109
     },
-    
-     {
-      "name": "TEST101",
-      "url": "https://www.ciweimao.com",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 105
-    },   
+
     {
       "name": "po18",
       "url": "https://www.po18.tw",
