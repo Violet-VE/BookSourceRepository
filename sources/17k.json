@@ -1,6 +1,6 @@
-{
+ {
     "name": "17k",
-    "version": 100,
+    "version": 101,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -17,15 +17,24 @@
       "catalog": [".read>a@attr->href"]
     },
     "catalog": { 
-      "list": ".Volume>DD",
+      "list": ".Volume>DD>a",
       "orderBy": 0,
+
+
+
+   "booklet": {
+      "name": "dl:nth-child(n+4) > dt > span.tit",
+      "list": ".Volume>dd"
+    },
+
+
       "chapter": {
-        "name": "A",
+        "name": "a",
         "link": "a@attr->href"
       }
     },
     "content": {
-      "text": "p"
+      "text": ".readAreaBox.content >.p"
     },
     "search": {
     "link": "https://search.17k.com/search.xhtml?c.st=0&c.q=${key}",
