@@ -100,8 +100,22 @@
       "version": 101
     },    
          
-
-    
+    {
+      "name": "三七",
+      "url": "https://www.37zw.net",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },
+     {
+      "name": "新书在线",
+      "url": "http://www.xinshuxs.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 100
+    },   
     {
       "name": "17k",
       "url": "https://www.17k.com",
