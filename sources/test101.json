@@ -1,30 +1,26 @@
 {
-  "name": "TEST101",
-  "version": 111,
-  "category": 3,
+  "name": "test101",
+  "version": 101,
+  "category": 1,
   "url": "https://www.ciweimao.com",
   "charset": "UTF-8",
   "metadata": {
     "name": ["p.tit > a"],
     "author": ["p:nth-child(2) > a","h3 > span > a"],
     "cover": ["ul > li> a > img@ATTR->src"],
-    "summary": [".desc",".book-desc"],
-    "category": [".label-box'],
-    "status": [],
-    "update": [],
-    "lastChapter": [],
+    "summary": [".label-box"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": [""],
     "link": ["p.tit > a@attr->href"],
     "catalog": [".icon-catalog>a@attr->href"]
   },
-  "catalog": { 
-    "list": ".book-chapter",
+  "catalog": {
+    "list": "ul > li",
     "orderBy": 0,
-    "booklet":{
-     "name": ".sub-tit",
-      "list": ".book-chapter-box"
-    },
     "chapter": {
-      "name": "ul > li > a",
+      "name": "a",
       "link": "a@attr->href"
     }
   },
@@ -32,18 +28,9 @@
     "text": ".book-read"
   },
   "search": {
-  "link": "https://www.ciweimao.com/get-search-book-list/0-0-0-0-0-0/%E5%85%A8%E9%83%A8/${key}/1",
+    "link": "https://www.ciweimao.com/get-search-book-list/0-0-0-0-0-0/%E5%85%A8%E9%83%A8/${key}/1",
     "list": ".rank-book-list>ul>li"
   }
-  
-  
 }
-
-
-
-
-
-
-
 
 
