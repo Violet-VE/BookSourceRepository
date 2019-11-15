@@ -1,6 +1,6 @@
  {
     "name": "17k",
-    "version": 111,
+    "version": 113,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -17,7 +17,7 @@
       "catalog": [".read>a@attr->href"]
     },
     "catalog": { 
-      "list": "body > div.Main.List > dl:nth-child(5) > dd",
+      "list": ".Volume>dd",
       "orderBy": 0,
       "chapter": {
         "name": "a",
@@ -36,8 +36,11 @@
   "auth": {
     "login": "https://passport.17k.com/login/",
     "cookie": "https://www.17k.com",
-    "valid": "",
-    "order": ""
+    "verify":
+   {
+    "key": "div:nth-child(1) > h2 > span",
+    "value": "我的创作"
+  }
   }
 
 
