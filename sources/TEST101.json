@@ -22,7 +22,7 @@
     "booklet":{
      "name": ".sub-tit",
       "list": ".book-chapter-box"
-    }
+    },
     "chapter": {
       "name": "ul > li > a",
       "link": "a@attr->href"
