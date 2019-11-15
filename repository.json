@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "130",
+  "summary": "131",
   "list": [
      
     {
@@ -20,14 +20,7 @@
       "auth": true,
       "version": 114
     },
-    {
-      "name": "jjv2",
-      "url": "http://www.jjwxc.net",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 119
-    },
+  
 
     {
       "name": "纵横",
