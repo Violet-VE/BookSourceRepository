@@ -1,6 +1,6 @@
 {
   "name": "jjv",
-  "version": 117,
+  "version": 118,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@attr->rel@js->${this}.replace('amp;','')"
+      "link": "a@js->${this}.replace('amp;','').match('"(.*)"')"
     }
   },
   "content": {
