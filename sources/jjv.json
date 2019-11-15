@@ -24,6 +24,7 @@
       "link": "a@js->${this}.replace('amp;','').match('"(.*)"')"
     }
   },
+  
   "content": {
     "text": ".noveltext"
   },
