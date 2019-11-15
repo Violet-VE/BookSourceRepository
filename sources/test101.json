@@ -1,6 +1,6 @@
 {
   "name": "test101",
-  "version": 102,
+  "version": 103,
   "category": 1,
   "url": "https://www.ciweimao.com",
   "charset": "UTF-8",
@@ -25,7 +25,7 @@
     }
   },
   "content": {
-    "text": "*"
+    "text": "#J_BookReadBox"
   },
   "search": {
     "link": "https://www.ciweimao.com/get-search-book-list/0-0-0-0-0-0/%E5%85%A8%E9%83%A8/${key}/1",
