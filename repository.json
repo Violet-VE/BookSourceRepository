@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "131",
+  "summary": "晋江V章节暂时用另一个源代替\n增加废文网\nv1.0.9",
   "list": [
      
     {
@@ -20,7 +20,14 @@
       "auth": true,
       "version": 114
     },
-  
+ {
+      "name": "晋江V",
+      "url": "http://www.jjwxc.net",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    }, 
 
     {
       "name": "纵横",
