@@ -1,6 +1,6 @@
 {
   "name": "长夜读",
-  "version": 101,
+  "version": 102,
   "category": 1,
   "url": "https://www.changyedu.com",
   "charset": "GBK",
@@ -25,7 +25,10 @@
     }
   },
   "content": {
-    "text": ".readerCon>p"
+    "text": ".readerCon",
+    "page": {
+    "next": ".readPage > a:nth-child(3)@attr->href"
+    }
   },
   "search": {
     "link": "https://www.changyedu.com/modules/article/search.php@post->searchtype=articlename&searchkey=${key}",
