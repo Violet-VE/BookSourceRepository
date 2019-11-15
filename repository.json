@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "125",
+  "summary": "126",
   "list": [
      
     {
@@ -18,7 +18,7 @@
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 110
+      "version": 114
     },
     {
       "name": "jjv",
@@ -148,7 +148,7 @@
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 109
+      "version": 114
     },
 
     {
