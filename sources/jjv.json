@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@js->${this}.replace('amp;','').match('"(.*)"')"
+      "link": "a@js->${this}.replace('amp;','').match('\"(.*)" id')"
     }
   },
   
