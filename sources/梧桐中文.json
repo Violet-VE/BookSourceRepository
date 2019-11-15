@@ -1,6 +1,6 @@
 {
   "name": "梧桐中文",
-  "version": 101,
+  "version": 102,
   "category": 1,
   "url": "http://www.wtzw.com",
   "charset": "UTF-8",
@@ -14,7 +14,7 @@
     "update": ["p > span.s66 > a@js->${this}.match('[\u4e00-\u9fa5]{3,}(.*)')"],
     "lastChapter": ["p > span.s66 > a@js->${this}.match('(.*)[0-9]{4,}')"],
     "link": [".sTit > a@attr->href"],
-    "catalog": [".main > div > div > p > a:nth-child(2)"]
+    "catalog": []
   },
   "catalog": {
     "list": ".chapterList > div > div.w_tb > ul > li",
