@@ -1,6 +1,6 @@
  {
     "name": "17k",
-    "version": 113,
+    "version": 114,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -34,8 +34,8 @@
 
 
   "auth": {
-    "login": "https://passport.17k.com/login/",
-    "cookie": "https://www.17k.com",
+    "login": "https://passport.17k.com/login",
+    "cookie": "https://user.17k.com/www/",
     "verify":
    {
     "key": "div:nth-child(1) > h2 > span",
