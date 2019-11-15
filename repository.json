@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "122",
+  "summary": "124",
   "list": [
      
     {
@@ -106,7 +106,7 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 101
+      "version": 103
     },
      {
       "name": "新书在线",
@@ -131,7 +131,7 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 101
+      "version": 102
     },        
      
     {
@@ -142,7 +142,14 @@
       "auth": false,
       "version": 102
     },   
-    
+    {
+      "name": "test101",
+      "url": "https://www.ciweimao.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
+    },       
     {
       "name": "17k",
       "url": "https://www.17k.com",
