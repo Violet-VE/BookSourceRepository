@@ -1,6 +1,6 @@
 {
-  "name": "jjv",
-  "version": 118,
+  "name": "jjv2",
+  "version": 119,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@js->${this}.replace('amp;','').match('\"(.*)" id')"
+      "link": "a@js->${this}.replace('amp;','').match('\"(.*)\" id')"
     }
   },
   
