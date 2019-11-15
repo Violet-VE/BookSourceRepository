@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "129",
+  "summary": "130",
   "list": [
      
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "jjv2",
-      "url": "http://www.jjwxc.net/",
+      "url": "http://www.jjwxc.net",
       "category": 1,
       "rank": 0,
       "auth": true,
