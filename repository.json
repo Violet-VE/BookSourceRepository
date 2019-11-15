@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "124",
+  "summary": "125",
   "list": [
      
     {
@@ -64,14 +64,6 @@
       "version": 101
     },  
            
-   {
-      "name": "黑岩",
-      "url": "https://www.heiyan.com",
-      "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 100
-    },  
  
     {
       "name": "笔趣阁",
@@ -148,7 +140,7 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 101
+      "version": 102
     },       
     {
       "name": "17k",
