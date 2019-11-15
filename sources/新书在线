@@ -1,0 +1,34 @@
+{
+  "name": "新书在线",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.xinshuxs.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["h2 > a"],
+    "author": ["p.state > a"],
+    "cover": [".pic > a:nth-child(1) > img@attr->src"],
+    "summary": ["p:nth-child(3)"],
+    "category": ["p.state@js->${this}.match('类型：(.*)状态：')[1]"],
+    "status": ["meta[property=og:novel:status]@attr->content"],
+    "update": [],
+    "lastChapter": [".Left > div.j_box > div.words > a"],
+    "link": ["h2 > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": ".list_box > ul > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".box_box"
+  },
+  "search": {
+    "link": "http://www.xinshuxs.com/plus/search.php?kwtype=0&searchtype=&q=${key}",
+    "list": ".ul_b_list > li"
+  }
+  }
