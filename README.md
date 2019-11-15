@@ -11,10 +11,37 @@ The repository is based on GitHub to provide an open book source repository for 
 | 废文网 | https://www.sosad.fun/ | 网文 | 0 | 是 | 1.0.6 |
 | 晋江 | http://www.jjwxc.net | 网文 | 0 | 是 | 1.0.1 |
 | 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
+| 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
+| 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
+| 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
+| 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
+| 刺猬猫 | https://www.ciweimao.com| 网文 | 0 | 是 | 1.0.3 |
+| 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
+| 梧桐中文 | http://www.wtzw.com | 网文 | 0 | 否 | 1.0.2 |
+| 长夜读 | https://www.changyedu.com| 网文 | 0 | 否 | 1.0.2 |
 ---
 
 
-### 目前还是半成品 仅仅能搜索看书
+### 勉强能搜索看书的 后两个贼慢
+* 晋江 (普通章节和V章节分开了)
+* 纵横
+* 废文
+* 飞卢
+* 汤圆创作
+* 梧桐中文
+* 耽美小说网
+* 长夜读
+
+
+### 只能搜索的
+* 17k(目前只能看到一章内容)
+* 书山（无法获取目录）
+* 刺猬猫
+
+
+
+
+
 
 
 ### 书源制作
