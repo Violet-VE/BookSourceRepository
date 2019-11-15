@@ -50,12 +50,12 @@
       "begin": "",
       "next": "#w1 > a:nth-child(13)@ATTR->HREF"
     }
-  }
+  },
 
 
 
 
- "auth": {
+ "auth":{
     "login": "https://members.po18.tw/apps/login.php",
     "cookie": "https://www.po18.tw/panel/literature/books",
    "verify": {
