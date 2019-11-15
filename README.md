@@ -22,7 +22,7 @@ The repository is based on GitHub to provide an open book source repository for 
 ---
 
 
-### 勉强能搜索看书的 后两个贼慢
+### 勉强能搜索看书的 后两个贼慢 登陆验证还没怎么加
 * 晋江 (普通章节和V章节分开了)
 * 纵横
 * 废文
