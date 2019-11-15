@@ -1,0 +1,34 @@
+{
+  "name": "三七",
+  "version": 100,
+  "category": 1,
+  "url": "https://www.37zw.net",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a","h1"],
+    "author": ["li@js->${this}.match('/(.*)')","#info > p:nth-child(2)@js->${this}.match(':(.*)')"],
+    "cover": ["#fmimg > img@attr->src"],
+    "summary": ["#intro"],
+    "category": [".box_con>div:nth-child(1)@js->${this}.match(' > (.*) >')"],
+    "status": [],
+    "update": ["#info > p:nth-child(4)@js->${this}.match('：(.*)')"],
+    "lastChapter": ["#info > p:nth-child(5) > a"],
+    "link": ["a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#list > dl > dd",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "https://www.37zw.net/s/so.php?type=articlename&s=${key}",
+    "list": ".novellist > ul > li"
+  }
+}
