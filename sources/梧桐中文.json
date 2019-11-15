@@ -1,0 +1,34 @@
+{
+  "name": "梧桐中文",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.wtzw.com",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": [".sTit > a"],
+    "author": ["p > span:nth-child(1) > a"],
+    "cover": [".w_pic > a > img@attr->src"],
+    "summary": [".sIntro.sIntro_2"],
+    "category": ["p > span:nth-child(4)@js->${this}.match('分类：(.*)')"],
+    "status": ["p > span:nth-child(2)@js->${this}.match('状态：(.*)')"],
+    "update": ["p > span.s66 > a@js->${this}.match('[\u4e00-\u9fa5]{3,}(.*)')"],
+    "lastChapter": ["p > span.s66 > a@js->${this}.match('(.*)[0-9]{4,}')"],
+    "link": [".sTit > a@attr->href"],
+    "catalog": [".main > div > div > p > a:nth-child(2)"]
+  },
+  "catalog": {
+    "list": ".chapterList > div > div.w_tb > ul > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".article>p"
+  },
+  "search": {
+    "link": "http://www.wtzw.com/search-${key}.html",
+    "list": ".searchList>ul>li"
+  }
+}
