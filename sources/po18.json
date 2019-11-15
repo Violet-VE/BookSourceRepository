@@ -1,6 +1,6 @@
 {
   "name": "po18",
-  "version": 105,
+  "version": 106,
   "category": 3,
   "url": "https://www.po18.tw",
   "charset": "utf-8",
@@ -53,9 +53,8 @@
   },
  "auth":{
     "login": "https://members.po18.tw/apps/login.php",
-    "cookie": "https://www.po18.tw/panel/literature/books",
    "verify": {
-      "link": "https://m.qidian.com/user",
+      "link": "https://www.po18.tw/panel/literature/books",
       "key": ".btn-default.overlayUI",
       "value": "新增章回"
     }
