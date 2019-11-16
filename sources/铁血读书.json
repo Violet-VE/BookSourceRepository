@@ -1,0 +1,81 @@
+{
+  "name": "铁血读书",
+  "version": 105,
+  "category": 1,
+  "url": "https://book.tiexue.net",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["h6>a","p.named > a.colorTh"],
+    "author": ["span.zuoZhe1 > a","p.zuoZhe > a"],
+    "cover": ["dl > dt > a > img@attr->src",".borderY > div.cel_01 > ul > li.li_01 > a > img@attr->src"],
+    "summary": ["dl > dd > p.cel02_row3"],
+    "category": [" td:nth-child(2) > p > a > u","p.leiBie > a"],
+    "status": [],
+    "update": [".newChapter.borderY.marTop > dl > dd@js->${this}.match('于 (.*)')","p.gxDate"],
+    "lastChapter": [".newChapter.borderY.marTop > dl > dt > h3 > a"],
+    "link": ["h6>a@attr->href","p.named > a.colorTh@attr->href"],
+    "catalog": ["li.li_02.readBth1 > a@attr->href"]
+  },
+  "catalog": {
+    "list": ".dictry>*",
+    "orderBy": 0,
+
+     "booklet": {
+      "name": "H2",
+      "list": "LI>P"
+    },
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#mouseRight > p"
+  },
+  "search": {
+    "link": "https://book.tiexue.net/SearchResults.aspx?keywords=${key}&noveltype=0",
+    "list": ".tianZhi_list>dl"
+  },
+
+ "rank": {
+    "link": [
+      {
+        "name": " 总点击排行榜 ",
+        "link": "https://book.tiexue.net/TopMore_0_3_0.html"
+      },
+      {
+        "name": " 总收藏排行榜 ",
+        "link": "https://book.tiexue.net/TopMore_1_3_0.html"
+      },
+      {
+        "name": " 总打赏排行榜 ",
+        "link": "https://book.tiexue.net/TopMore_4_3_0.html"
+      },
+      {
+        "name": " 总评论排行榜 ",
+        "link": "https://book.tiexue.net/TopMore_6_3_0.html"
+      },
+      {
+        "name": " 总催更排行榜 ",
+        "link": "https://book.tiexue.net/TopMore_5_3_0.html"
+      }
+    ],
+    "list": ".Sort01>DL>DD"
+    
+  },
+
+    "auth": {
+    "login": "https://book.tiexue.net",
+    "cookie": "https://book.tiexue.net/",
+    "verify": {
+      "link": "https://book.tiexue.net/",
+      "key": "#loginLater > p.p02 > a",
+      "value": "退出登录"
+    }
+}
+
+
+
+
+
+}
