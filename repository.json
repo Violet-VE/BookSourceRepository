@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书nv1.1.1",
+  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书nv1.1.2",
   "list": [
      
     {
@@ -159,6 +159,22 @@
       "rank": 0,
       "auth": true,
       "version": 114
+    },
+      {
+      "name": "指尖阅读",
+      "url": "http://www.lemengfun.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },
+        {
+      "name": "i猎奇",
+      "url": "https://www.ilieqi.net/",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
     },
 
     {
