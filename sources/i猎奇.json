@@ -1,0 +1,48 @@
+{
+  "name": "i猎奇",
+  "version": 101,
+  "category": 1,
+  "url": "https://www.ilieqi.net",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["h3>a","h2"],
+    "author": ["div > div > p:nth-child(3)"," p.writerN"],
+    "cover": [".fl.searchend.booklist-con > ul > li > div > a > img@attr->src",".o-info-face.fl > div > img@attr->src"],
+    "summary": [" p.b-prief"],
+    "category": [".o-info-box > p:nth-child(2)"],
+    "status": ["h3 > span"],
+    "update": [],
+    "lastChapter": ["p:nth-child(2) > span > a"],
+    "link": ["h3>a@attr->href"],
+    "catalog": [".o-mulu-title >a@attr->href@js->${this}.match('[0-9]{6,}')[1]"]
+  },
+  "catalog": {
+    "list": ".o-mulu-con>ul>li",
+    "orderBy": 1,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#readMain > div"
+  },
+  "search": {
+    "link": "https://www.ilieqi.net/search.htm?keyword=${key}&searchId=4",
+    "list": ".searchend.booklist-con > ul > li"
+  },
+
+
+ "auth": {
+    "login": "https://www.ilieqi.net/",
+    "cookie": "https://www.ilieqi.net/topup.htm",
+    
+    "verify": {
+      "link": "https://www.ilieqi.net/topup.htm",
+      "key": "",
+      "value": ""
+    }
+}
+
+
+}
