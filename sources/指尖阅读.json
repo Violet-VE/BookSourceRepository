@@ -1,0 +1,35 @@
+{
+  "name": "指尖阅读",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.lemengfun.com",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["h4>a","h2"],
+    "author": [".info > div.line > span",".block > div.block_txt2 > p:nth-child(4) > a"],
+    "cover": [".book>.pic>IMG@attr->src",".topWrap > div.pic > img@attr->src"],
+    "summary": [".desc",".topWrap > div.con > p"],
+    "category": [".block > div.block_txt2 > p:nth-child(5) > a"],
+    "status": [],
+    "update": [".newChapter.borderY.marTop > dl > dd@js->${this}.match('于 (.*)')","p.gxDate"],
+    "lastChapter": [".newChapter.borderY.marTop > dl > dt > h3 > a"],
+    "link": ["h4>a@attr->href",""],
+    "catalog": []
+  },
+  "catalog": {
+    "list": ".mainWrap > div.con > div > div>div",
+    "orderBy": 1,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#readMain > div"
+  },
+  "search": {
+    "link": "http://www.lemengfun.com/search/${key}",
+    "list": ".resultWrap>.book"
+  }
+
+}
