@@ -17,9 +17,13 @@
       "catalog": [".read>a@attr->href"]
     },
     "catalog": { 
-      "list": ".Volume>dd",
-      "orderBy": 0,
-      "chapter": {
+      "list": ".Volume",
+      "orderBy": 1,
+       "booklet": {
+      "name": "span.tit",
+      "list": "dd>A"
+    },
+        "chapter": {
         "name": "a",
         "link": "a@attr->href"
       }
@@ -46,4 +50,3 @@
 
 
   }
-  
