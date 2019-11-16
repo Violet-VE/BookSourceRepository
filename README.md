@@ -12,7 +12,9 @@ The repository is based on GitHub to provide an open book source repository for 
 | 晋江 | http://www.jjwxc.net | 网文 | 0 | 是 | 1.0.1 |
 | 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
+| 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
 | 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
+| 书耽 | https://www.shubl.com| 网文 | 0 | 是 | 1.0.1 |
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 刺猬猫 | https://www.ciweimao.com| 网文 | 0 | 是 | 1.0.3 |
@@ -26,6 +28,7 @@ The repository is based on GitHub to provide an open book source repository for 
 * 晋江 (普通章节和V章节分开了)
 * 纵横
 * 废文
+* 铁血读书
 * 飞卢
 * 汤圆创作
 * 梧桐中文
@@ -37,6 +40,7 @@ The repository is based on GitHub to provide an open book source repository for 
 * 17k(目前只能看到一章内容)
 * 书山（无法获取目录）
 * 刺猬猫
+* 书耽
 
 
 
