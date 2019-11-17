@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书v1.1.6",
+  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书\n增加连城读书\n1.1.7",
   "list": [
      
     {
@@ -66,12 +66,12 @@
       "version": 100
     },  
     {
-      "name": "书山",
-      "url": "http://shushan.zhangyue.net",
+      "name": "连城读书",
+      "url": "http://www.lcread.com/",
       "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 105
+      "rank": 5,
+      "auth": true,
+      "version": 110
     },  
            
  
@@ -176,6 +176,15 @@
       "auth": true,
       "version": 110
     },
+    
+         {
+      "name": "第八区",
+      "url": "http://www.dibaqu123.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },   
 
     {
       "name": "po18",
