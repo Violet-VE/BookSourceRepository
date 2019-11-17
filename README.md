@@ -14,10 +14,12 @@ The repository is based on GitHub to provide an open book source repository for 
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
 | 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
 | i猎奇| https://ilieqi.net/| 网文 | 0 | 是 | 1.1.0 |
+| 连城读书| http://www.lcread.com/| 网文 | 0 | 是 | 1.1.0 |
 | 书耽 | https://www.shubl.com| 网文 | 0 | 是 | 1.0.1 |
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 刺猬猫 | https://www.ciweimao.com| 网文 | 0 | 是 | 1.0.3 |
+| 第八区 | http://www.dibaqu123.com| 网文 | 0 | 否 | 1.0.1 |
 | 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
 | 梧桐中文 | http://www.wtzw.com | 网文 | 0 | 否 | 1.0.2 |
@@ -29,6 +31,8 @@ The repository is based on GitHub to provide an open book source repository for 
 * 晋江 (普通章节和V章节分开了)
 * 纵横
 * 废文
+* 连城读书
+* 第八区
 * 17k(卷名位置获取有问题)
 * 爱猎奇
 * 指尖阅读
@@ -36,6 +40,7 @@ The repository is based on GitHub to provide an open book source repository for 
 * 飞卢
 * 汤圆创作
 * 梧桐中文
+* 新书在线
 * 耽美小说网
 * 长夜读
 
