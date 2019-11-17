@@ -1,0 +1,67 @@
+{
+  "name": "连城读书",
+  "version": 110,
+  "category": 1,
+  "url": "http://www.lcread.com/",
+  "charset": "GBK",
+  "metadata": {
+    "name": [".txt_100_t > a:nth-child(1)","a"],
+    "author": ["a:nth-child(3)","tr > td:nth-child(5) > a"],
+    "cover": [".pic_100_t > a > img@attr->src","td:nth-child(1) > div > img@attr->src"],
+    "summary": ["#bri2"],
+    "category": ["tr:nth-child(2) > td > div > a:nth-child(2)"],
+    "status": [],
+    "update": ["td:nth-child(4) > p"],
+    "lastChapter": [".panel-body.text-center.info3 > p:nth-child(3) > a"],
+    "link": [".txt_100_t > a:nth-child(1)@attr->href","a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#cul",
+    "orderBy": 0,
+     "booklet": {
+      "name": ".dsh",
+      "list": "#abl4> table > tbody> tr > td"
+    },
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#ccon"
+  },
+  "search": {
+    "link": "http://my.lc1001.com/esou/q?dowhat=query&kw=${key}&type=1000",
+    "list": ".tb_con"
+  },
+
+"rank": {
+    "link": [
+      {
+        "name": "点击榜",
+        "link": "http://www.lcread.com/book/top/zongdianji.html"
+      },
+      {
+        "name": "封神榜",
+        "link": "http://www.lcread.com/book/top/fengshen.html"
+      },
+      {
+        "name": "收藏榜",
+        "link": "http://www.lcread.com/book/top/zongshoucang.html"
+      }
+    ],
+    "list": "#mainB > div.toptt>table>tbody > tr:nth-child(2n+1)"
+   
+  },
+
+ "auth": {
+    "login": "http://www.dibaqu123.com/login.php",
+    "cookie": "http://www.dibaqu123.com",
+    "verify": {
+      "link": "http://www.dibaqu123.com",
+      "key": "",
+      "value": ""
+    }
+}
+}
