@@ -1,6 +1,6 @@
  {
     "name": "书山",
-    "version": 103,
+    "version": 105,
     "category": 3,
     "url": "http://shushan.zhangyue.net",
     "charset": "UTF-8",
@@ -14,7 +14,7 @@
       "update": [""],
       "lastChapter": [""],
       "link": [".book-info>a@attr->href"],
-      "catalog": [".book–info>a@attr->href@js->{this}.replace('book/','book/directory?bid=')"]
+      "catalog": [".book–info>a@attr->href@js->${this}.replace('book/','book/directory?bid=')"]
     },
     "catalog": { 
       "list": ".bookInfo-directory > div > div > ul > li",
