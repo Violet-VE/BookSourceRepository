@@ -1,6 +1,6 @@
 {
   "name": "i猎奇",
-  "version": 101,
+  "version": 110,
   "category": 1,
   "url": "https://www.ilieqi.net",
   "charset": "UTF-8",
@@ -14,18 +14,18 @@
     "update": [],
     "lastChapter": ["p:nth-child(2) > span > a"],
     "link": ["h3>a@attr->href"],
-    "catalog": [".o-mulu-title >a@attr->href@js->${this}.match('[0-9]{6,}')[1]"]
+    "catalog": [".o-mulu-title >a@attr->href@js->${this}.replace('/book/','/')"]
   },
   "catalog": {
     "list": ".o-mulu-con>ul>li",
-    "orderBy": 1,
+    "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@attr->href"
+      "link": "a@attr->href@js->${this}.replace('/chapterlist/', '/')"
     }
   },
   "content": {
-    "text": "#readMain > div"
+    "text": ".context>p"
   },
   "search": {
     "link": "https://www.ilieqi.net/search.htm?keyword=${key}&searchId=4",
