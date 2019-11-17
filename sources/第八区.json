@@ -1,0 +1,43 @@
+{
+  "name": "第八区",
+  "version": 100,
+  "category": 1,
+  "url": "http://www.dibaqu123.com",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["td>p>a","a"],
+    "author": ["#booklast>p>a"],
+    "cover": [".info1 > img@attr->src"],
+    "summary": [".info2 > div > p"],
+    "category": [".panel-body.text-center.info3 > p:nth-child(1)@js->${this}.match('分类：(.*) / 状态')"],
+    "status": ["td:nth-child(5) > p"],
+    "update": ["td:nth-child(4) > p"],
+    "lastChapter": [".panel-body.text-center.info3 > p:nth-child(3) > a"],
+    "link": ["td>p>a@attr->href","a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": ".row:nth-child(5)>div>div>div>ul>li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#nr"
+  },
+  "search": {
+    "link": "http://www.dibaqu123.com/modules/article/search.php@post->searchkey=${key}",
+    "list": "#bookcon>tbody>tr:nth-child(n+2)"
+  },
+ "auth": {
+    "login": "http://www.dibaqu123.com/login.php",
+    "cookie": "http://www.dibaqu123.com",
+    "verify": {
+      "link": "http://www.dibaqu123.com",
+      "key": "",
+      "value": ""
+              }
+         }
+}
