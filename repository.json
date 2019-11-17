@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书v1.1.5",
+  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书v1.1.6",
   "list": [
      
     {
@@ -174,7 +174,7 @@
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 101
+      "version": 110
     },
 
     {
