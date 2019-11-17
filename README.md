@@ -13,11 +13,12 @@ The repository is based on GitHub to provide an open book source repository for 
 | 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
 | 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
-| 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
+| i猎奇| https://ilieqi.net/| 网文 | 0 | 是 | 1.1.0 |
 | 书耽 | https://www.shubl.com| 网文 | 0 | 是 | 1.0.1 |
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 刺猬猫 | https://www.ciweimao.com| 网文 | 0 | 是 | 1.0.3 |
+| 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
 | 梧桐中文 | http://www.wtzw.com | 网文 | 0 | 否 | 1.0.2 |
 | 长夜读 | https://www.changyedu.com| 网文 | 0 | 否 | 1.0.2 |
@@ -28,6 +29,9 @@ The repository is based on GitHub to provide an open book source repository for 
 * 晋江 (普通章节和V章节分开了)
 * 纵横
 * 废文
+* 17k(卷名位置获取有问题)
+* 爱猎奇
+* 指尖阅读
 * 铁血读书
 * 飞卢
 * 汤圆创作
@@ -37,8 +41,7 @@ The repository is based on GitHub to provide an open book source repository for 
 
 
 ### 只能搜索的
-* 17k(目前只能看到一章内容)
-* 书山（无法获取目录）
+* 书山（获取目录问题）
 * 刺猬猫
 * 书耽
 
