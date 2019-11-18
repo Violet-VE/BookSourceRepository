@@ -9,7 +9,7 @@ The repository is based on GitHub to provide an open book source repository for 
 | 书源 | API | 类型 | 排行榜 | 账号 | 版本 |
 | :----: | ------------- | :--: | :----: | :----: | :---: |
 | 废文网 | https://www.sosad.fun/ | 网文 | 0 | 是 | 1.0.6 |
-| 晋江 | http://www.jjwxc.net | 网文 | 0 | 是 | 1.0.1 |
+| 晋江 | http://www.jjwxc.net | 网文 | 6 | 是 | 1.0.5 |
 | 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
 | 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
@@ -19,6 +19,7 @@ The repository is based on GitHub to provide an open book source repository for 
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 刺猬猫 | https://www.ciweimao.com| 网文 | 0 | 是 | 1.0.3 |
+| 露西弗俱乐部| https://www.lucifer-club.com| 网文 | 6 | 是 | 1.0.1 |
 | 第八区 | http://www.dibaqu123.com| 网文 | 0 | 否 | 1.0.1 |
 | 书山 | http://shushan.zhangyue.net| 网文 | 0 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
@@ -37,6 +38,7 @@ The repository is based on GitHub to provide an open book source repository for 
 * 爱猎奇
 * 指尖阅读
 * 铁血读书
+* 露西弗俱乐部
 * 飞卢
 * 汤圆创作
 * 梧桐中文
