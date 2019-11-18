@@ -1,0 +1,81 @@
+{
+  "name": "露西弗俱乐部",
+  "version": 101,
+  "category": 1,
+  "url": "https://www.lucifer-club.com",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["td:nth-child(2) > div > a","td:nth-child(3) > div > a"],
+    "author": ["td.luf_td_author > a",".luf_book_info > li:nth-child(4) > a"],
+    "cover": [".luf_user_info > li.luf_book_img > img@attr->src"],
+    "summary": [".luf_book_quote"],
+    "category": [".luf_book_info > li:nth-child(7)"],
+    "status": [".luf_user_info > li:nth-child(3)"],
+    "update": [".luf_user_info > li:nth-child(6)@js->${this}.replace('最后更新：','')"],
+    "lastChapter": [".luf_user_info > li:nth-child(12) > a"],
+    "link": ["td:nth-child(2) > div > a@attr->href","td:nth-child(3) > div > a@attr->href"],
+    "catalog": ["li.li_02.readBth1 > a@attr->href"]
+  },
+  "catalog": {
+    "list": "tbody > tr:nth-child(n+2) > td:nth-child(2)*",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#luf_news_contents",
+    "filter": ["#luf_news_contents > font"]
+  },
+  "search": {
+    "link": "https://www.lucifer-club.com/search.php?action=search&style=0&subject=0&content=0&sty=0&state=0&by=title&kw=${key}&rank=click&order=desc",
+    "list": "tbody > tr:nth-child(n+2)"
+  },
+
+ "rank": {
+    "link": [
+      {
+        "name": " 原创月点击 ",
+        "link": "https://www.lucifer-club.com/hit-click-lastmonth-yc.html"
+      },
+      {
+        "name": " 原创月收藏 ",
+        "link": "https://www.lucifer-club.com/hit-favo-lastmonth-yc.html"
+      },
+      {
+        "name": " 原创月顶顶",
+        "link": "https://www.lucifer-club.com/hit-digg-lastmonth-yc.html"
+      },
+      {
+        "name": " 同人月点击 ",
+        "link": "https://www.lucifer-club.com/hit-click-lastmonth-tr.html"
+      },
+      {
+        "name": " 同人月收藏 ",
+        "link": "https://www.lucifer-club.com/hit-favo-lastmonth-tr.html"
+      },
+      {
+        "name": " 同人月顶顶",
+        "link": "https://www.lucifer-club.com/hit-digg-lastmonth-tr.html"
+      }
+    ],
+    "list": "tbody > tr:nth-child(n+2)"
+    
+  },
+
+    "auth": {
+    "login": "https://www.lucifer-club.com/login.php",
+    "cookie": "https://www.lucifer-club.com",
+    "verify": {
+      "link": "https://www.lucifer-club.com",
+      "key": "#luf_top > div.luf_top_menu > a:nth-child(3)",
+      "value": "退出"
+    }
+}
+
+
+
+
+
+}
