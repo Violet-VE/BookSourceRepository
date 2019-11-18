@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "晋江V章节暂时用另一个源代替\n增加铁血读书\n增加连城读书\n1.1.7",
+  "summary": "增加露西弗俱乐部、n增加铁血读书\n增加连城读书\nv1.1.8",
   "list": [
      
     {
@@ -16,10 +16,18 @@
       "name": "晋江",
       "url": "http://www.jjwxc.net",
       "category": 1,
-      "rank": 0,
+      "rank": 6,
       "auth": true,
-      "version": 114
+      "version": 105
     },
+  {
+      "name": "露西弗俱乐部",
+      "url": "https://www.lucifer-club.com",
+      "category": 1,
+      "rank": 6,
+      "auth": true,
+      "version": 101
+    },    
  {
       "name": "晋江V章节",
       "url": "http://www.jjwxc.net/",
