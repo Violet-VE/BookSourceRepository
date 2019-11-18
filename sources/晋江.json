@@ -1,19 +1,19 @@
 {
   "name": "晋江",
-  "version": 114,
+  "version": 105,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
   "metadata": {
-    "name": ["H3>A","H1>SPAN"],
-    "author": [".INFO>A","h2 > a > span"],
+    "name": ["H3>A","td:nth-child(3) > a","H1>SPAN"],
+    "author": [".INFO>A","td:nth-child(2) > a","h2 > a > span"],
     "cover": [".smallreadbody>IMG@attr->src"],
-    "summary": [".INTRO","#novelintro"],
-    "category": [""],
-    "status": [""],
+    "summary": [".INTRO","td:nth-child(3) > a@attr->rel","#novelintro"],
+    "category": [".righttd > ul > li:nth-child(1) > span:nth-child(2)"],
+    "status": ["ul > li:nth-child(5) > span:nth-child(2) > font"],
     "update": [""],
     "lastChapter": [""],
-    "link": ["h3>a@attr->href"],
+    "link": ["h3>a@attr->href","td:nth-child(3) > a@attr->href"],
     "catalog": []
   },
   "catalog": { 
@@ -25,12 +25,49 @@
     }
   },
   "content": {
-    "text": ".noveltext"
+    "text":".noveltext",
+    "filter":["#download_action","#favorite_2","#yrt3 > a","#report_action","#float_favorite",".float_favorite"]
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
     "list": "#search_result > div"
   },
+
+"rank": {
+    "link": [
+      {
+        "name": " 新晋作者榜 ",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=3&t=0"
+      },
+      {
+        "name": " 总分排行榜 ",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=7&t=0"
+      },
+      {
+        "name": " 半年排行榜",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=6&t=0"
+      },
+      {
+        "name": " 季度排行榜 ",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=4&t=0"
+      },
+      {
+        "name": " 月度排行榜 ",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=5&t=0"
+      },
+      {
+        "name": " 完结高分",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=20&t=0"
+      } ,
+      {
+        "name": " 霸王总榜",
+        "link": "http://www.jjwxc.net/topten.php?orderstr=13&t=0"
+      }
+    ],
+    "list": "tbody > tr:nth-child(n+2)"
+    
+  },
+
   
     "auth": {
     "login": "http://www.jjwxc.net/#",
