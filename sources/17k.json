@@ -1,6 +1,6 @@
  {
     "name": "17k",
-    "version": 114,
+    "version": 115,
     "category": 3,
     "url": "https://www.17k.com",
     "charset": "UTF-8",
@@ -11,7 +11,7 @@
       "summary": ["ul>li:nth-child(3)",".intro"],
       "category": [".bq>span:nth-child(2)>a"],
       "status": [".label > a:nth-child(1)"],
-      "update": ["#bookInfo > dt > em@js->${this}.match('更新: (.*)')[1]"],
+      "update": ["#bookInfo > dt > em@js->${this}.match(/更新: (.*)/)[1]"],
       "lastChapter": [".NewsChapter > dd > ul > li:nth-child(2) > a"],
       "link": ["dt>a@attr->href"],
       "catalog": [".read>a@attr->href"]
