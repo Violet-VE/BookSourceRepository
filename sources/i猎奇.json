@@ -7,7 +7,7 @@
   "metadata": {
     "name": ["h3>a","h2"],
     "author": ["div > div > p:nth-child(3)"," p.writerN"],
-    "cover": [".fl.searchend.booklist-con > ul > li > div > a > img@attr->src",".o-info-face.fl > div > img@attr->src"],
+    "cover": ["div > a > img@attr->src",".o-info-face.fl > div > img@attr->src"],
     "summary": [" p.b-prief"],
     "category": [".o-info-box > p:nth-child(2)"],
     "status": ["h3 > span"],
