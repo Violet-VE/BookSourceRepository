@@ -1,17 +1,17 @@
 {
   "name": "三七",
-  "version": 103,
+  "version": 104,
   "category": 1,
   "url": "https://www.37zw.net",
   "charset": "utf-8",
   "metadata": {
     "name": ["a","h1"],
-    "author": ["li@js->${this}.match('/(.*)')[1]","#info > p:nth-child(2)@js->${this}.match(':(.*)')"],
+    "author": ["li@js->${this}.match(//(.*)/)[1]","#info > p:nth-child(2)@js->${this}.match(/:(.*)/)[1]"],
     "cover": ["#fmimg > img@attr->src"],
     "summary": ["#intro"],
-    "category": [".box_con>div:nth-child(1)@js->${this}.match(' > (.*) >')"],
+    "category": [".box_con>div:nth-child(1)@js->${this}.match(/ > (.*) >/)[1]"],
     "status": [],
-    "update": ["#info > p:nth-child(4)@js->${this}.match('：(.*)')"],
+    "update": ["#info > p:nth-child(4)@js->${this}.match(/：(.*)/)[1]"],
     "lastChapter": ["#info > p:nth-child(5) > a"],
     "link": ["a@attr->href"],
     "catalog": []
