@@ -1,0 +1,79 @@
+{
+  "name": "天下书盟",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.fbook.net",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["h3 > a","h2"],
+    "author": ["h4 > a"],
+    "cover": [".litab_img > a > img@attr->src","a > img@attr->src",".cl_box > div.c_img > img@attr->src"],
+    "summary": [".litab_content > p","a.a-link-hui.line-height-180",".c_text > div:nth-child(3)"],
+    "category": ["a.btn-type-bgred.float-l"],
+    "status": [".c_sjzt > img@attr->alt"],
+    "update": [],
+    "lastChapter": [".tablist>#a_red3"],
+    "link": ["h3 > a@attr->href","a@attr->href"],
+    "catalog": ["#ca_frsj:nth-child(3)@attr->href"]
+  },
+  "catalog": {
+    "list": "#list1>LI",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#chapterContent>P"
+  },
+  "search": {
+    "link": "http://www.fbook.net/Search/Index?searchType=All&searchKey=${key}",
+    "list": ".litab_1"
+  },
+
+"rank": {
+    "link": [
+      {
+        "name": " 点击排行榜 ",
+        "link": "http://www.fbook.net/top/dianji?page="
+      },
+      {
+        "name": " 收藏排行榜 ",
+        "link": "http://www.fbook.net/top/shoucang?page="
+      },
+      {
+        "name": " 畅销排行榜 ",
+        "link": "http://www.fbook.net/top/changxiao?page="
+      },
+      {
+        "name": " 好看排行榜 ",
+        "link": "http://www.fbook.net/top/haokan?page="
+      },
+      {
+        "name": " 完本排行榜 ",
+        "link": "http://www.fbook.net/top/wanben?page="
+      }
+    ],
+    "list": ".top-t1-list > ul > li",
+     "page": {
+    "index": 1,
+    "limit": 10,
+    "begin": "1",
+    "next": "${index}"
+   }
+  },
+
+
+
+
+ "auth": {
+    "login": "http://www.fbook.net/Member/Login",
+    "cookie": "http://www.fbook.net",
+    "verify": {
+      "link": "http://www.fbook.net",
+      "key": "",
+      "value": ""
+              }
+         }
+}
