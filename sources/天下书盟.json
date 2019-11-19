@@ -1,6 +1,6 @@
 {
   "name": "天下书盟",
-  "version": 101,
+  "version": 103,
   "category": 1,
   "url": "http://www.fbook.net",
   "charset": "UTF-8",
@@ -11,7 +11,7 @@
     "summary": [".litab_content > p","a.a-link-hui.line-height-180",".c_text > div:nth-child(3)"],
     "category": ["a.btn-type-bgred.float-l"],
     "status": [".c_sjzt > img@attr->alt"],
-    "update": [],
+    "update": ["#qh-tabcon2@js->${this}.match('([0-9].*)')[1]"],
     "lastChapter": [".tablist>#a_red3"],
     "link": ["h3 > a@attr->href","a@attr->href"],
     "catalog": ["#ca_frsj:nth-child(3)@attr->href"]
