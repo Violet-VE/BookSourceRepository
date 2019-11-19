@@ -10,9 +10,9 @@
       "cover": ["IMG@attr->src"],
       "summary": ["ul>li:nth-child(3)",".intro"],
       "category": [".bq>span:nth-child(2)>a"],
-      "status": [""],
-      "update": ["ul > li:nth-child(4) > code"],
-      "lastChapter": [""],
+      "status": [".label > a:nth-child(1)"],
+      "update": ["#bookInfo > dt > em@js->${this}.match('更新: (.*)')[1]"],
+      "lastChapter": [".NewsChapter > dd > ul > li:nth-child(2) > a"],
       "link": ["dt>a@attr->href"],
       "catalog": [".read>a@attr->href"]
     },
