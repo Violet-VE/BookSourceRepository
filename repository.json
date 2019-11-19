@@ -45,6 +45,14 @@
       "auth": false,
       "version": 105
     },
+        {
+      "name": "天下书盟",
+      "url": "http://www.fbook.net",
+      "category": 1,
+      "rank": 6,
+      "auth": true,
+      "version": 103
+    },
     
     
         {
@@ -193,6 +201,15 @@
       "auth": true,
       "version": 101
     },   
+             {
+      "name": "完本神站",
+      "url": "https://www.wanbentxt.com/",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 103
+    },   
+
 
     {
       "name": "po18",
