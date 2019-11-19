@@ -1,6 +1,6 @@
 {
   "name": "晋江",
-  "version": 105,
+  "version": 106,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -10,8 +10,8 @@
     "cover": [".smallreadbody>IMG@attr->src"],
     "summary": [".INTRO","td:nth-child(3) > a@attr->rel","#novelintro"],
     "category": [".righttd > ul > li:nth-child(1) > span:nth-child(2)"],
-    "status": ["ul > li:nth-child(5) > span:nth-child(2) > font"],
-    "update": [""],
+    "status": ["li:nth-child(5) > span:nth-child(2)"],
+    "update": ["meta[name=Description]@attr->content@js->${this}.match(/新:(.*?) 作/)[1]"],
     "lastChapter": [""],
     "link": ["h3>a@attr->href","td:nth-child(3) > a@attr->href"],
     "catalog": []
