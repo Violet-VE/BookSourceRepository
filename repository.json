@@ -42,8 +42,8 @@
       "url": "http://www.zongheng.com",
       "category": 1,
       "rank": 0,
-      "auth": false,
-      "version": 105
+      "auth": true,
+      "version": 101
     },
         {
       "name": "天下书盟",
@@ -89,17 +89,7 @@
       "auth": true,
       "version": 110
     },  
-           
- 
-    {
-      "name": "笔趣阁",
-      "url": "https://www.biqubao.com",
-      "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 103
-    },    
-    
+        
    {
       "name": "磨铁中文网",
       "url": "http://m.motie.com",
@@ -107,17 +97,7 @@
       "rank": 0,
       "auth": true,
       "version": 110
-    },    
-      
-    {
-      "name": "读书369",
-      "url": "http://www.dushu369.com",
-      "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 101
-    },    
-         
+    },       
     {
       "name": "三七",
       "url": "https://www.37zw.net",
@@ -140,7 +120,7 @@
       "url": "http://www.itangyuan.com",
       "category": 1,
       "rank": 0,
-      "auth": false,
+      "auth": true,
       "version": 101
     },  
     {  
@@ -158,7 +138,7 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 102
+      "version": 103
     },   
     {
       "name": "test101",
@@ -192,33 +172,15 @@
       "auth": true,
       "version": 110
     },
-    
-         {
-      "name": "第八区",
-      "url": "http://www.dibaqu123.com",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 101
-    },   
-             {
+   {
       "name": "完本神站",
       "url": "https://www.wanbentxt.com/",
       "category": 1,
       "rank": 0,
       "auth": true,
       "version": 103
-    },   
+    } 
 
-
-    {
-      "name": "po18",
-      "url": "https://www.po18.tw",
-      "category": 1,
-      "rank": 2,
-      "auth": true,
-      "version": 105
-    }
       
   ]
 }
