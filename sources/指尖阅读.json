@@ -11,8 +11,8 @@
     "summary": [".desc",".topWrap > div.con > p"],
     "category": [".block > div.block_txt2 > p:nth-child(5) > a"],
     "status": [],
-    "update": [".newChapter.borderY.marTop > dl > dd@js->${this}.match('于 (.*)')","p.gxDate"],
-    "lastChapter": [".newChapter.borderY.marTop > dl > dt > h3 > a"],
+    "update": [],
+    "lastChapter": [".latest > a"],
     "link": ["h4>a@attr->href",""],
     "catalog": []
   },
