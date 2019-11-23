@@ -1,0 +1,36 @@
+{
+  "name": "卡夜阁",
+  "version": 101,
+  "category": 1,
+  "url": "https://www.kayege.net",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["td:nth-child(1) > a","h1"],
+    "author": [" td:nth-child(3)",".detail.fl > ul > li:nth-child(1) > p"],
+    "cover": ["#tab1 > a > img@attr->src"],
+    "summary": [".playlist.sec > div.mlist"],
+    "category": [".detail.fl > ul > li:nth-child(2) > p"],
+    "status": [".detail.fl > ul > li:nth-child(4) > p"],
+    "update": [".detail.fl > ul > li:nth-child(5) > p"],
+    "lastChapter": [".detail.fl > p > a"],
+    "link": ["td:nth-child(1) > a@attr->href"],
+    "catalog": [:a.read.blue@attr->href]
+  },
+  "catalog": {
+    "list": "ol > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#inner"
+  },
+
+
+  "search": {"link": "https://www.kayege.net/modules/article/search.php@post->searchkey=${key}&searchtype=articlename",
+    "list": "#content > table > tbody > tr:nth-child(n+2)"
+  }
+
+}
