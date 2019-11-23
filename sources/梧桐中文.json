@@ -31,4 +31,18 @@
     "link": "http://www.wtzw.com/search-${key}.html",
     "list": ".searchList>ul>li"
   }
+ "auth": {
+    "login": "http://www.wtzw.com",
+    "cookie": "wtzw.com",
+    "verify": {
+      "link": "",
+      "key": "",
+      "value": ""
+    }
+    
+  } 
+  
+  
+  
+  
 }
