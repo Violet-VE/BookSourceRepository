@@ -11,8 +11,8 @@
       "summary": [".l_con>A","#con_tab11_box1 > a"],
       "category": ["span:nth-child(3) > a"],
       "status": [""],
-      "update": [""],
-      "lastChapter": [""],
+      "update": [".ni_12@js->${this}.match(/新：(.*)/)[1]"],
+      "lastChapter": [" h1 > a"],
       "link": ["h1>a@attr->href"],
       "catalog": []
     },
