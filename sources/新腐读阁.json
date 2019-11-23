@@ -1,0 +1,36 @@
+{
+  "name": "新腐读阁",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.xfuduge.com",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["h2 > a","h2"],
+    "author": ["p.state > a:nth-child(1)"],
+    "cover": [".pic > a:nth-child(1) > img@attr->src",".Left > div.p_box > div.pic > a > img@attr->src"],
+    "summary": ["p.jianjie"],
+    "category": ["h2 > span > a"],
+    "status": [" li.wj"],
+    "update": ["#cms_favorites"],
+    "lastChapter": [".j_box > div:nth-child(4) > a"],
+    "link": ["h2 > a@attr->href"],
+    "catalog": [".read_btn > div.btn > a.yd@attr->href"]
+  },
+  "catalog": {
+    "list": "#booklistBox > li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".box_box"
+  },
+  "search": {
+    "link": "http://www.xfuduge.com/so/?${key}.html",
+    "list": "#L_Box > ul > li"
+  }
+
+
+}
