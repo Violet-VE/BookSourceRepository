@@ -21,6 +21,7 @@ The repository is based on GitHub to provide an open book source repository for 
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 指尖阅读 | http://www.lemengfun.com | 网文 | 0 | 是 | 1.0.5 |
+| i猎奇 | https://www.ilieqi.net/ | 网文 | 0 | 是 | 1.0.1 |
 | 露西弗俱乐部| https://www.lucifer-club.com| 网文 | 6 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
 | 完本神站 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
