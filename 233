@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "summary": "245",
+  "list": [
+ 
+     {
+      "name": "po18.in",
+      "url": "https://www.po18.in",
+      "category": 1,
+      "rank": 5,
+      "auth": false,
+      "version": 101
+    },
+    {
+      "name": "新腐读阁",
+      "url": "http://www.xfuduge.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
+    }
+  
+  ]
+}
