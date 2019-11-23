@@ -14,7 +14,7 @@
     "update": [".detail.fl > ul > li:nth-child(5) > p"],
     "lastChapter": [".detail.fl > p > a"],
     "link": ["td:nth-child(1) > a@attr->href"],
-    "catalog": [:a.read.blue@attr->href]
+    "catalog": ["a.read.blue@attr->href"]
   },
   "catalog": {
     "list": "ol > li",
