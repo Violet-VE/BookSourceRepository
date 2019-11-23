@@ -1,0 +1,68 @@
+{
+  "name": "po18.in",
+  "version": 101,
+  "category": 1,
+  "url": "https://www.po18.in",
+  "charset": "GBK",
+  "metadata": {
+    "name": [" li:nth-child(1) > a","td:nth-child(1) > a",".col-md-10 > h1"],
+    "author": ["li:nth-child(3)@js->${this}.match(/者：(.*)/)[1]","td.text-muted",".booktag > a:nth-child(1)"],
+    "cover": [".tu > img@attr->src","#bookIntro > img@attr->src"],
+    "summary": ["#bookIntro"],
+    "category": [".booktag > a:nth-child(2)"],
+    "status": [".booktag > span:nth-child(5)"],
+    "update": [".col-md-10 > p.visible-xs@js->${this}.match(/时间：(.*) /)[1]"],
+    "lastChapter": [".panel.panel-danger > dl > dd:nth-child(1) > a"],
+    "link": [" li:nth-child(1) > a@attr->href","td:nth-child(1) > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#list-chapterAll > dl > dd",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#htmlContent"
+  },
+
+ 
+  "search": {"link": "https://www.po18.in/modules/article/search.php?searchkey=${key}",
+    "list": ".mySearch > ul"
+  },
+"rank": {
+    "link": [
+      {
+        "name": " 总排行榜 ",
+        "link": "https://www.po18.in//modules/article/toplist.php?sort=allvisit&page="
+      },
+      {
+        "name": " 总收藏排行榜 ",
+        "link": "https://www.po18.in//modules/article/toplist.php?sort=goodnum&page="
+      },
+      {
+        "name": " 总推荐排行榜 ",
+        "link": "https://www.po18.in//modules/article/toplist.php?sort=allvote&page="
+      },
+      {
+        "name": " 最近更新 ",
+        "link": "https://www.po18.in//modules/article/toplist.php?sort=lastupdate&page="
+      },
+       {
+        "name": " 最新入库 ",
+        "link": "https://www.po18.in//modules/article/toplist.php?sort=postdate&page="
+      }
+    ],
+    "list": " tbody > tr:nth-child(n+2)",
+     "page": {
+    "index": 1,
+    "limit": 20,
+    "begin": "1",
+    "next": "${index}"
+   }
+  }
+
+
+}
