@@ -7,12 +7,12 @@
   "metadata": {
     "name": ["h2 > a"],
     "author": ["p.state > a"],
-    "cover": [".pic > a:nth-child(1) > img@attr->src"],
+    "cover": [".pic > a:nth-child(1) > img@attr->src",".p_box > div.pic > a > img@attr->src"],
     "summary": ["p:nth-child(3)"],
-    "category": ["p.state@js->${this}.match('类型：(.*)状态：')[1]"],
+    "category": ["meta[property=og:novel:category]@attr->content"],
     "status": ["meta[property=og:novel:status]@attr->content"],
-    "update": [],
-    "lastChapter": [".Left > div.j_box > div.words > a"],
+    "update": ["meta[property=og:novel:update_time]@attr->content"],
+    "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
     "link": ["h2 > a@attr->href"],
     "catalog": []
   },
