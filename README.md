@@ -24,6 +24,7 @@ The repository is based on GitHub to provide an open book source repository for 
 | i猎奇 | https://www.ilieqi.net/ | 网文 | 0 | 是 | 1.0.1 |
 | 露西弗俱乐部| https://www.lucifer-club.com| 网文 | 6 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
+| 古典文学网 | http://www.cngdwx.com | 网文 | 0 | 否 | 1.0.1 |
 | 完本神站 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
 | 新书在线 | http://www.xinshuxs.com | 网文 | 0 | 否 | 1.0.1 |
 | 长夜读 | https://www.changyedu.com| 网文 | 0 | 否 | 1.0.2 |
@@ -42,6 +43,7 @@ The repository is based on GitHub to provide an open book source repository for 
 * 铁血读书
 * 露西弗俱乐部
 * 飞卢
+*古典文学网
 * 汤圆创作
 * 梧桐中文
 * 新书在线
