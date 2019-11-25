@@ -1,15 +1,15 @@
 {
   "name": "wenmoux",
-  "summary": "增加露西弗俱乐部\n增加铁血读书\n增加完本神站\nv1.1.9",
+  "summary": "增加露西弗俱乐部\n增加古典文学网\n增加完本神站\nv1.1.9",
   "list": [
      
     {
-      "name": "废文网TEST",
+      "name": "废文网",
       "url": "https://www.sosad.fun",
       "category": 1,
       "rank": 0,
-      "auth": false,
-      "version": 111
+      "auth": true,
+      "version": 101
     },
 
     {
@@ -185,9 +185,17 @@
       "url": "https://www.wanbentxt.com/",
       "category": 1,
       "rank": 0,
-      "auth": true,
+      "auth": false,
       "version": 103
-    } 
+    } ,
+    {
+     "name": "古典文学网",
+      "url": "http://www.cngdwx.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
+    }
 
       
   ]
