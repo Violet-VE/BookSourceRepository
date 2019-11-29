@@ -37,32 +37,7 @@
     "list": ".tianZhi_list>dl"
   },
 
- "rank": {
-    "link": [
-      {
-        "name": " 总点击排行榜 ",
-        "link": "https://book.tiexue.net/TopMore_0_3_0.html"
-      },
-      {
-        "name": " 总收藏排行榜 ",
-        "link": "https://book.tiexue.net/TopMore_1_3_0.html"
-      },
-      {
-        "name": " 总打赏排行榜 ",
-        "link": "https://book.tiexue.net/TopMore_4_3_0.html"
-      },
-      {
-        "name": " 总评论排行榜 ",
-        "link": "https://book.tiexue.net/TopMore_6_3_0.html"
-      },
-      {
-        "name": " 总催更排行榜 ",
-        "link": "https://book.tiexue.net/TopMore_5_3_0.html"
-      }
-    ],
-    "list": ".Sort01>DL>DD"
-    
-  },
+ 
 
     "auth": {
     "login": "https://book.tiexue.net",
