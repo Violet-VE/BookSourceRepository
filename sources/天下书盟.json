@@ -32,37 +32,7 @@
     "list": ".litab_1"
   },
 
-"rank": {
-    "link": [
-      {
-        "name": " 点击排行榜 ",
-        "link": "http://www.fbook.net/top/dianji?page="
-      },
-      {
-        "name": " 收藏排行榜 ",
-        "link": "http://www.fbook.net/top/shoucang?page="
-      },
-      {
-        "name": " 畅销排行榜 ",
-        "link": "http://www.fbook.net/top/changxiao?page="
-      },
-      {
-        "name": " 好看排行榜 ",
-        "link": "http://www.fbook.net/top/haokan?page="
-      },
-      {
-        "name": " 完本排行榜 ",
-        "link": "http://www.fbook.net/top/wanben?page="
-      }
-    ],
-    "list": ".top-t1-list > ul > li",
-     "page": {
-    "index": 1,
-    "limit": 10,
-    "begin": "1",
-    "next": "${index}"
-   }
-  },
+
 
 
 
