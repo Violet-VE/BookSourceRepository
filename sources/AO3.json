@@ -1,0 +1,51 @@
+{
+  "name": "AO3",
+  "version": 101,
+  "category": 1,
+  "url": "https://archiveofourown.org",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["div > h4 > a","#workskin > div:nth-child(1) > h2"],
+    "author": ["div > h4 > a:nth-child(2)","div:nth-child(1) > h3 > a"],
+    "cover": [""],
+    "summary": ["blockquote > p"],
+    "category": [".category.tags > ul > li > a"],
+    "status": [""],
+    "update": ["dd.stats > dl > dd.published"],
+    "lastChapter": [".luf_user_info > li:nth-child(12) > a"],
+    "link": ["div > h4 > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#show_comments_link_top",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#chapters > div>p"
+  },
+  "search": {
+    "link": "https://archiveofourown.org/works/search?utf8=%E2%9C%93&work_search%5Bquery%5D=${key}",
+    "list": "ol.work.index.group>lI"
+  },
+  
+ 
+
+    "auth": {
+    "login": "https://archiveofourown.org/users/login",
+    "cookie": "https://archiveofourown.org/",
+    "verify": {
+      "link": "https://archiveofourown.org/",
+      "key": "",
+      "value": ""
+    }
+}
+
+
+
+
+
+}
