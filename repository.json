@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "增加露西弗俱乐部\n增加古典文学网\n增加完本神站\nv1.1.9",
+  "summary": "增加露西弗俱乐部\n增加古典文学网\n去除排行榜以及部分源\nv1.1.0",
   "list": [
      
     {
@@ -16,7 +16,7 @@
       "name": "晋江",
       "url": "http://www.jjwxc.net",
       "category": 1,
-      "rank": 6,
+      "rank": 0,
       "auth": true,
       "version": 105
     },
@@ -24,7 +24,7 @@
       "name": "露西弗俱乐部",
       "url": "https://www.lucifer-club.com",
       "category": 1,
-      "rank": 6,
+      "rank": 0,
       "auth": true,
       "version": 101
     },    
@@ -49,7 +49,7 @@
       "name": "天下书盟",
       "url": "http://www.fbook.net",
       "category": 1,
-      "rank": 6,
+      "rank": 0,
       "auth": true,
       "version": 103
     },
@@ -59,7 +59,7 @@
       "name": "铁血读书",
       "url": "https://book.tiexue.net",
       "category": 1,
-      "rank": 5,
+      "rank": 0,
       "auth": true,
       "version": 105
     },
@@ -85,7 +85,7 @@
       "name": "连城读书",
       "url": "http://www.lcread.com/",
       "category": 1,
-      "rank": 5,
+      "rank": 0,
       "auth": true,
       "version": 110
     },  
@@ -98,14 +98,6 @@
       "auth": true,
       "version": 110
     },       
-    {
-      "name": "三七",
-      "url": "https://www.37zw.net",
-      "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 103
-    },
      {
       "name": "新书在线",
       "url": "http://www.xinshuxs.com",
@@ -139,15 +131,7 @@
       "rank": 0,
       "auth": false,
       "version": 103
-    },   
-    {
-      "name": "test101",
-      "url": "https://www.ciweimao.com",
-      "category": 1,
-      "rank": 0,
-      "auth": false,
-      "version": 102
-    },       
+    },     
     {
       "name": "17k",
       "url": "https://www.17k.com",
@@ -155,14 +139,6 @@
       "rank": 0,
       "auth": true,
       "version": 114
-    },
-      {
-      "name": "指尖阅读",
-      "url": "http://www.lemengfun.com",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 101
     },
         {
       "name": "i猎奇",
