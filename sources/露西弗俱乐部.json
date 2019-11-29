@@ -33,36 +33,7 @@
     "list": "tbody > tr:nth-child(n+2)"
   },
 
- "rank": {
-    "link": [
-      {
-        "name": " 原创月点击 ",
-        "link": "https://www.lucifer-club.com/hit-click-lastmonth-yc.html"
-      },
-      {
-        "name": " 原创月收藏 ",
-        "link": "https://www.lucifer-club.com/hit-favo-lastmonth-yc.html"
-      },
-      {
-        "name": " 原创月顶顶",
-        "link": "https://www.lucifer-club.com/hit-digg-lastmonth-yc.html"
-      },
-      {
-        "name": " 同人月点击 ",
-        "link": "https://www.lucifer-club.com/hit-click-lastmonth-tr.html"
-      },
-      {
-        "name": " 同人月收藏 ",
-        "link": "https://www.lucifer-club.com/hit-favo-lastmonth-tr.html"
-      },
-      {
-        "name": " 同人月顶顶",
-        "link": "https://www.lucifer-club.com/hit-digg-lastmonth-tr.html"
-      }
-    ],
-    "list": "tbody > tr:nth-child(n+2)"
-    
-  },
+ 
 
     "auth": {
     "login": "https://www.lucifer-club.com/login.php",
