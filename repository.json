@@ -1,11 +1,19 @@
 {
   "name": "wenmoux",
-  "summary": "增加露西弗俱乐部\n增加古典文学网\n去除排行榜以及部分源\nv1.1.0",
+  "summary": "增加AO3\n增加古典文学网\n去除排行榜以及部分源\nv1.1.0",
   "list": [
      
     {
       "name": "废文网",
       "url": "https://www.sosad.fun",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },
+    {
+      "name": "AO3",
+      "url": "https://archiveofourown.org",
       "category": 1,
       "rank": 0,
       "auth": true,
