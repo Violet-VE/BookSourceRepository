@@ -33,40 +33,6 @@
     "list": "#search_result > div"
   },
 
-"rank": {
-    "link": [
-      {
-        "name": " 新晋作者榜 ",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=3&t=0"
-      },
-      {
-        "name": " 总分排行榜 ",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=7&t=0"
-      },
-      {
-        "name": " 半年排行榜",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=6&t=0"
-      },
-      {
-        "name": " 季度排行榜 ",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=4&t=0"
-      },
-      {
-        "name": " 月度排行榜 ",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=5&t=0"
-      },
-      {
-        "name": " 完结高分",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=20&t=0"
-      } ,
-      {
-        "name": " 霸王总榜",
-        "link": "http://www.jjwxc.net/topten.php?orderstr=13&t=0"
-      }
-    ],
-    "list": "tbody > tr:nth-child(n+2)"
-    
-  },
 
   
     "auth": {
