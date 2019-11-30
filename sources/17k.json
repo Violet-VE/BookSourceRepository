@@ -1,52 +1,57 @@
+{
+  "name": "17k",
+  "version": 102,
+  "category": 3,
+  "url": "https://www.17k.com",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["dt>a",".BookInfo > div.Info.Sign > h1 > a"],
+    "author": [".bq>span:nth-child(1)>a"],
+    "cover": ["IMG@attr->src"],
+    "summary": ["ul>li:nth-child(3)",".intro"],
+    "category": [".bq>span:nth-child(2)>a"],
+    "status": [".label > a:nth-child(1)"],
+    "update": ["#bookInfo > dt > em@js->${this}.match(/更新: (.*)/)[1]"],
+    "lastChapter": [".NewsChapter > dd > ul > li:nth-child(2) > a"],
+    "link": ["dt>a@attr->href"],
+    "catalog": [".read>a@attr->href"]
+  },
+  "catalog": { 
+    "list": ".Volume",
+    "orderBy": 0,
+     "booklet": {
+    "name": "span.tit",
+    "list": "dd>A"
+  },
+      "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".readAreaBox.content >.p"
+  },
+  "search": {
+  "link": "https://search.17k.com/search.xhtml?c.st=0&c.q=${key}",
+    "list": ".search-list>.textlist:nth-child(n+3)"
+  },
+
+
+"auth": {
+  "login": "https://passport.17k.com/login",
+  "cookie": "17k.com",
+  "verify":
  {
-    "name": "17k",
-    "version": 115,
-    "category": 3,
-    "url": "https://www.17k.com",
-    "charset": "UTF-8",
-    "metadata": {
-      "name": ["dt>a",".BookInfo > div.Info.Sign > h1 > a"],
-      "author": [".bq>span:nth-child(1)>a"],
-      "cover": ["IMG@attr->src"],
-      "summary": ["ul>li:nth-child(3)",".intro"],
-      "category": [".bq>span:nth-child(2)>a"],
-      "status": [".label > a:nth-child(1)"],
-      "update": ["#bookInfo > dt > em@js->${this}.match(/更新: (.*)/)[1]"],
-      "lastChapter": [".NewsChapter > dd > ul > li:nth-child(2) > a"],
-      "link": ["dt>a@attr->href"],
-      "catalog": [".read>a@attr->href"]
-    },
-    "catalog": { 
-      "list": ".Volume",
-      "orderBy": 0,
-       "booklet": {
-      "name": "span.tit",
-      "list": "dd>A"
-    },
-        "chapter": {
-        "name": "a",
-        "link": "a@attr->href"
-      }
-    },
-    "content": {
-      "text": ".readAreaBox.content >.p"
-    },
-    "search": {
-    "link": "https://search.17k.com/search.xhtml?c.st=0&c.q=${key}",
-      "list": ".search-list>.textlist:nth-child(n+3)"
-    },
-
-
-  "auth": {
-    "login": "https://passport.17k.com/login",
-    "cookie": "https://user.17k.com/www/",
-    "verify":
-   {
-    "key": "div:nth-child(1) > h2 > span",
-    "value": "我的创作"
-  }
-  }
+  "key": "div:nth-child(1) > h2 > span",
+  "value": "我的创作"
+}
+,
+    "vip": {
+      "key": "p.copy@js->${this}.match(' (.+),')[1]",
+      "value": "VIP章节"
+    }
+}
 
 
 
-  }
+}
