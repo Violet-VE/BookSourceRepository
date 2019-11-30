@@ -1,7 +1,7 @@
 {
   "name": "i猎奇",
-  "version": 110,
-  "category": 1,
+  "version": 102,
+  "category":1,
   "url": "https://www.ilieqi.net",
   "charset": "UTF-8",
   "metadata": {
@@ -39,10 +39,15 @@
     
     "verify": {
       "link": "https://www.ilieqi.net/topup.htm",
-      "key": "",
-      "value": ""
+        "key": "#toputButton",
+        "value": "立即充值"
     }
-}
+    ,
+    "vip": {
+      "key": "div.readcon > div.context.ordertext > h3",
+      "value": "此章节为收费章节，需要订阅后才能阅读哦~"
+    }
+  }
 
 
 }
