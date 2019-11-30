@@ -30,7 +30,7 @@ The repository is based on GitHub to provide an open book source repository for 
 ---
 
 
-### 需登录
+### v章节需登录
 * 晋江 (普通章节和V章节分开了)
 * 废文
 * 连城读书
@@ -42,8 +42,8 @@ The repository is based on GitHub to provide an open book source repository for 
 * 露西弗俱乐部
 * 飞卢
 * 梧桐中文
-* 古典文学网
 * 汤圆创作
+
 
 ### 不需要登录
 * 新书在线
