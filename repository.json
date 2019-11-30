@@ -44,16 +44,7 @@
       "auth": true,
       "version": 104
     }, 
-
-    {
-      "name": "纵横",
-      "url": "http://www.zongheng.com",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 101
-    },
-        {
+   {
       "name": "天下书盟",
       "url": "http://www.fbook.net",
       "category": 1,
@@ -62,8 +53,7 @@
       "version": 103
     },
     
-    
-        {
+    {
       "name": "铁血读书",
       "url": "https://book.tiexue.net",
       "category": 1,
@@ -98,14 +88,7 @@
       "version": 110
     },  
         
-   {
-      "name": "磨铁中文网",
-      "url": "http://m.motie.com",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 110
-    },       
+
      {
       "name": "新书在线",
       "url": "http://www.xinshuxs.com",
