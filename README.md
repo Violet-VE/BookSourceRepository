@@ -30,7 +30,7 @@ The repository is based on GitHub to provide an open book source repository for 
 ---
 
 
-### 勉强能搜索看书的 后两个贼慢 登陆验证还没怎么加
+### 需登录
 * 晋江 (普通章节和V章节分开了)
 * 废文
 * 连城读书
@@ -41,18 +41,21 @@ The repository is based on GitHub to provide an open book source repository for 
 * 铁血读书
 * 露西弗俱乐部
 * 飞卢
-*古典文学网
-* 汤圆创作
 * 梧桐中文
+* 古典文学网
+* 汤圆创作
+
+### 不需要登录
 * 新书在线
 * 耽美小说网
 * 长夜读
+* 古典文学网
+* 千家文
 
 
-### 只能搜索的
-* 刺猬猫
-* 书山
-* 书耽
+
+
+
 
 
 
