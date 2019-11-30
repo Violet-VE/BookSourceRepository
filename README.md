@@ -10,7 +10,6 @@ The repository is based on GitHub to provide an open book source repository for 
 | :----: | ------------- | :--: | :----: | :----: | :---: |
 | 废文网 | https://www.sosad.fun/ | 网文 | 0 | 是 | 1.0.6 |
 | 晋江 | http://www.jjwxc.net | 网文 | 6 | 是 | 1.0.5 |
-| 纵横 | http://www.zongheng.com | 网文 | 0 | 是 | 1.0.1 |
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
 | 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
 | 梧桐中文| http://www.wtzw.com| 网文 | 0 | 是 | 1.0.3 |
@@ -33,7 +32,6 @@ The repository is based on GitHub to provide an open book source repository for 
 
 ### 勉强能搜索看书的 后两个贼慢 登陆验证还没怎么加
 * 晋江 (普通章节和V章节分开了)
-* 纵横
 * 废文
 * 连城读书
 * 第八区
