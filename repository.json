@@ -179,6 +179,14 @@
       "rank": 0,
       "auth": false,
       "version": 101
+    },
+    {
+      "name": "千家文",
+      "url": "http://www.qianjiawen.net",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
     }
 
       
