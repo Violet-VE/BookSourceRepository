@@ -1,6 +1,6 @@
 {
-  "name": "晋江",
-  "version": 106,
+  "name": "1254",
+  "version": 101,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -37,9 +37,10 @@
   
     "auth": {
     "login": "http://www.jjwxc.net/#",
-    "cookie": "http://my.jjwxc.net/backend/userinfo.php",
+    "cookie": "www.jjwxc.net",
    "verify":
    {
+    "link": "http://my.jjwxc.net/backend/userinfo.php",
     "key": "#myjquerymenu > ul > li:nth-child(1) > a",
     "value": "【我的晋江】"
   },
