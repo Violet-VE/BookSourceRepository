@@ -1,6 +1,6 @@
 {
   "name": "233",
-  "summary": "......",
+  "summary": "....1..",
   "list": [
  
      {
@@ -18,8 +18,16 @@
       "rank": 0,
       "auth": false,
       "version": 101
-    },
-    {
+    },  {
+      "name": "NBA小说",
+      "url": "http://www.nbaxiaoshuo.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 103
+    }
+  
+,    {
       "name": "AO3",
       "url": "https://archiveofourown.org",
       "category": 1,
