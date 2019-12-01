@@ -1,6 +1,6 @@
 {
   "name": "天下书盟",
-  "version": 103,
+  "version": 102,
   "category": 1,
   "url": "http://www.fbook.net",
   "charset": "UTF-8",
@@ -32,18 +32,17 @@
     "list": ".litab_1"
   },
 
-
-
-
-
-
  "auth": {
     "login": "http://www.fbook.net/Member/Login",
-    "cookie": "http://www.fbook.net",
+    "cookie": "fbook.net",
     "verify": {
-      "link": "http://www.fbook.net",
-      "key": "",
-      "value": ""
-              }
-         }
+      "link": "http://www.fbook.net/Member",
+      "key": ".container.top-top > ul > li:nth-child(15) > a",
+      "value": "退出登录"
+        },
+    "vip": {
+      "key": "#chapterContent > p:nth-child(4)@js->${this}.match('(.+。)')[1]",
+      "value": "该章节是收费章节，需要订阅后才能阅读。"
+    }
+  }
 }
