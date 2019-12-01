@@ -1,0 +1,37 @@
+{
+  "name": "NBA小说",
+  "version": 101,
+  "category": 1,
+  "url": "http://www.nbaxiaoshuo.com",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["h4 > a","h1"],
+    "author": ["td:nth-child(3)",".booktag > a"],
+    "cover": [".bookcover.hidden-xs > img@attr->src"],
+    "summary": ["p.bookintro"],
+    "category": ["meta[property=og:novel:category]@attr->content"],
+    "status": ["span.red"],
+    "update": ["meta[property=og:novel:update_time]@attr->content"],
+    "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
+    "link": ["h4 > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#list-chapterAll > div > dd",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".readcotent.font-normal"
+  },
+  "search": {
+    "link": "http://www.nbaxiaoshuo.com/modules/article/search.php@post->searchtype=articlename&searchkey=${key}&action=login&submit=",
+    "list": ".bookbox"
+  }
+  
+
+
+}
