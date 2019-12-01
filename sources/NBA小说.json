@@ -6,7 +6,7 @@
   "charset": "GBK",
   "metadata": {
     "name": ["h4 > a","h1"],
-    "author": [".bookinfo > .author@js->${this}.match(/作者：(.+)/)[1]","meta[property=og:novel:author]@attr->content"],
+    "author": [".bookinfo > .author@js->${this}.match('作者：(.+)')[1]","meta[property=og:novel:author]@attr->content"],
     "cover": [".bookcover.hidden-xs > img@attr->src"],
     "summary": ["p.bookintro"],
     "category": ["meta[property=og:novel:category]@attr->content"],
