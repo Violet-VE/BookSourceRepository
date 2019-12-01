@@ -170,8 +170,15 @@
       "rank": 0,
       "auth": false,
       "version": 103
+    } ,
+    {
+      "name": "读文族",
+      "url": "https://www.duwenzu.com",
+      "category":1,
+      "rank": 0,
+      "auth": false,
+      "version": 101
     }
-  
 
       
   ]
