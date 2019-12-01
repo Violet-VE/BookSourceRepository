@@ -18,9 +18,8 @@
   },
   "catalog": { 
     "list": ".td_0",
-    "orderBy": 0
- 
-    "chapter": {
+    "orderBy": 0,
+   "chapter": {
       "name": " .td_0>a",
       "link": "a@attr->href"
     }
