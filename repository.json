@@ -11,14 +11,6 @@
       "auth": true,
       "version": 101
     },
-    {
-      "name": "AO3",
-      "url": "https://archiveofourown.org",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 101
-    },
 
     {
       "name": "晋江",
@@ -38,7 +30,7 @@
     },    
  {
       "name": "晋江V章节",
-      "url": "http://www.jjwxc.net/",
+      "url": "http://www.jjwxc.net",
       "category": 1,
       "rank": 0,
       "auth": true,
@@ -50,7 +42,7 @@
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 103
+      "version": 102
     },
     
     {
