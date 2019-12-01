@@ -1,0 +1,35 @@
+{
+  "name": "读文族",
+  "version": 101,
+  "category": 1,
+  "url": "https://www.duwenzu.com",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["td:nth-child(1) > a","h1"],
+    "author": ["td:nth-child(3)","#info > p:nth-child(2)@js->${this}.match('作 者：(.+)')[1]"],
+    "cover": [],
+    "summary": ["#intro > p"],
+    "category": [""],
+    "status": [""],
+    "update": ["#info > p:nth-child(4)@js->${this}.match('最后更新：(.+)')[1]"],
+    "lastChapter": ["#list > dl > dd:nth-child(2) > a"],
+    "link": ["td:nth-child(1) > a@attr->href"],
+    "catalog": [""]
+  },
+  "catalog": {
+    "list": "#list > dl > dd:nth-child(n+12)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#content"
+  },
+  "search": {
+    "link": "https://www.duwenzu.com/modules/article/search.php@post->searchkey=${key}",
+    "list": "#nr"
+  }
+ 
+}
