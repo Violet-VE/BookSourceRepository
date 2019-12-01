@@ -42,7 +42,11 @@
    {
     "key": "#myjquerymenu > ul > li:nth-child(1) > a",
     "value": "【我的晋江】"
-  }
+  },
+    "vip": {
+      "key": "tr:nth-child(2) > td:nth-child(2)",
+      "value": "VIP章节订阅"
+    }
   }
   
   
