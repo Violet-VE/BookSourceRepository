@@ -1,6 +1,6 @@
 {
   "name": "wenmoux",
-  "summary": "增加AO3\n增加古典文学网\n去除排行榜以及部分源\nv1.1.0",
+  "summary": "增加AO3\n增加古典文学网\n去除排行榜以及部分源\nv1.1.1",
   "list": [
      
     {
@@ -169,7 +169,7 @@
       "category": 1,
       "rank": 0,
       "auth": false,
-      "version": 101
+      "version": 103
     }
   
 
