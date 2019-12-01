@@ -1,7 +1,8 @@
-# BookSourceRepository
+### 仓库地址
+*  https://raw.githubusercontent.com/Wenmoux/BookSourceRepository/master/repository.json
 
-The repository is based on GitHub to provide an open book source repository for the Deepink, and welcomes the introduction of new book sources.
 
+*  http://1oner.cn/Wenmoux/233.json(你懂得源)
 
 
 ##### 目前已收录
@@ -51,6 +52,9 @@ The repository is based on GitHub to provide an open book source repository for 
 * 长夜读
 * 古典文学网
 * 千家文
+* NBA小说
+* 读文族
+
 
 
 
