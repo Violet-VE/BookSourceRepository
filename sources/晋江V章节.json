@@ -33,24 +33,14 @@
     "list": "#search_result > div"
   },
 
-
-  
     "auth": {
-    "login": "http://www.jjwxc.net/#",
+    "login": "http://www.jjwxc.net",
     "cookie": "www.jjwxc.net",
    "verify":
    {
     "link": "http://my.jjwxc.net/backend/userinfo.php",
     "key": "#myjquerymenu > ul > li:nth-child(1) > a",
     "value": "【我的晋江】"
-  },
-    "vip": {
-      "key": "tr:nth-child(2) > td:nth-child(2)",
-      "value": "VIP章节订阅"
-    }
   }
-  
-  
- 
-  
+  }
 }
