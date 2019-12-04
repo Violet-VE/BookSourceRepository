@@ -3,7 +3,7 @@
   "version": 101,
   "category": 3,
   "url": "https://www.fushuwan.com",
-  "charset": "GBK",
+  "charset": "UTF-8",
   "metadata": {
     "name": ["h3>a@js->${this}.match('《(.+)——')[1]"],
     "author": ["h3>a@js->${this}.match('——(.+)》')[1]"],
