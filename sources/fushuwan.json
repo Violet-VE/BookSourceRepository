@@ -1,0 +1,38 @@
+{
+  "name": "FSW",
+  "version": 101,
+  "category": 3,
+  "url": "https://www.fushuwan.com",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["h3>a@js->${this}.match('《(.+)——')[1]"],
+    "author": ["h3>a@js->${this}.match('——(.+)》')[1]"],
+    "cover": [""],
+    "summary": [".blog_entry"],
+    "category": [""],
+    "status": [""],
+    "update": [""],
+    "lastChapter": [""],
+    "link": ["h3>a@attr->href"],
+    "catalog": []
+  },
+  "catalog": { 
+    "list": ".pagela > select",
+    "orderBy": 0,
+    "chapter": {
+      "name": "option",
+      "link": "option@attr->value"
+    }
+  },
+  "content": {
+    "text":"#post > div.post",
+    "filter":["P"]
+  },
+  "search": {
+  "link": "https://www.fushuwan.com/e/search/index.php@post->keyboard=${key}&show=title&submit=%CD%E5%C0%EF%D5%D2%D5%D2",
+    "list": ".main.block > ul > li"
+  }
+
+
+  
+}
