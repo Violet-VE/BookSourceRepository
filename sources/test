@@ -1,0 +1,56 @@
+{
+  "name": "jj",
+  "version": 102,
+  "category": 3,
+  "url": "http://www.jjwxc.net",
+  "charset": "GBK",
+  "metadata": {
+    "name": ["H3>A","td:nth-child(3) > a","H1>SPAN"],
+    "author": [".INFO>A","td:nth-child(2) > a","h2 > a > span"],
+    "cover": ["H3>A@attr->href@js->${this}.replace('www.jjwxc.net\/onebook','i9-static.jjwxc.net\/novelimage')",".smallreadbody>IMG@attr->src"],
+    "summary": [".INTRO","td:nth-child(3) > a@attr->rel","#novelintro"],
+    "category": [".righttd > ul > li:nth-child(1) > span:nth-child(2)"],
+    "status": ["li:nth-child(5) > span:nth-child(2)"],
+    "update": ["meta[name=Description]@attr->content@js->${this}.match(/新:(.*?) 作/)[1]"],
+    "lastChapter": [""],
+    "link": ["h3>a@attr->href","td:nth-child(3) > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": { 
+    "list": "td:nth-child(2) > span > div:nth-child(1)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text":".noveltext",
+    "filter":["#download_action","#favorite_2","#yrt3 > a","#report_action","#float_favorite",".float_favorite"]
+  },
+  "search": {
+  "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
+    "list": "#search_result > div"
+  },
+
+
+  
+    "auth": {
+    "login": "http://www.jjwxc.net/#",
+    "cookie": "www.jjwxc.net",
+   "verify":
+   {
+    "link": "http://my.jjwxc.net/backend/userinfo.php",
+    "key": "#myjquerymenu > ul > li:nth-child(1) > a",
+    "value": "【我的晋江】"
+  },
+    "vip": {
+      "key": "tr:nth-child(2) > td:nth-child(2)",
+      "value": "VIP章节订阅"
+    }
+  }
+  
+  
+ 
+  
+}
