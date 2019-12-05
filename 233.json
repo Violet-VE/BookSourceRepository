@@ -1,6 +1,6 @@
 {
   "name": "ndd",
-  "summary": "你懂1",
+  "summary": "你懂2",
   "list": [
  
      {
@@ -28,11 +28,11 @@
       "version": 101
     },
     {
-      "name": "fushuwan",
-      "url": "https://www.fushuwan.com",
+      "name": "jj",
+      "url": "http://www.jjwxc.net",
       "category": 1,
       "rank": 0,
-      "auth": false,
+      "auth": true,
       "version": 101
     }
   
