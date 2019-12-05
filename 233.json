@@ -1,6 +1,6 @@
 {
   "name": "ndd",
-  "summary": "你懂2",
+  "summary": "你懂23",
   "list": [
  
      {
@@ -33,7 +33,7 @@
       "category": 1,
       "rank": 0,
       "auth": true,
-      "version": 101
+      "version": 102
     }
   
   ]
