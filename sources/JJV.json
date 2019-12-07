@@ -2,7 +2,7 @@
   "name": "JJV",
   "version": 102,
   "category": 3,
-  "url": "http://www.jjwxc.net",
+  "url": "http://www.jjwxc.net/",
   "charset": "GBK",
   "metadata": {
     "name": ["H3>A","td:nth-child(3) > a","H1>SPAN"],
@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@attr->REL"
+      "link": "a@attr->rel"
     }
   },
   "content": {
