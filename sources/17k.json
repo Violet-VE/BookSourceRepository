@@ -29,7 +29,8 @@
     }
   },
   "content": {
-    "text": ".readAreaBox.content >.p"
+    "text": ".readAreaBox.content >.p",
+    "filter":["@div.qrcode"]
   },
   "search": {
   "link": "https://search.17k.com/search.xhtml?c.st=0&c.q=${key}",
