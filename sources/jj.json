@@ -1,6 +1,6 @@
 {
   "name": "jj",
-  "version": 102,
+  "version": 103,
   "category": 3,
   "url": "http://www.jjwxc.net",
   "charset": "GBK",
@@ -26,7 +26,7 @@
   },
   "content": {
     "text":".noveltext",
-    "filter":["#float_favorite"]
+    "filter":["div:nth-child(323) > div > img@attr->src"]
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
