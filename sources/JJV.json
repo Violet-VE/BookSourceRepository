@@ -1,8 +1,8 @@
 {
-  "name": "晋江V章节",
+  "name": "JJV",
   "version": 102,
   "category": 3,
-  "url": "http://www.jjwxc.net/",
+  "url": "http://www.jjwxc.net",
   "charset": "GBK",
   "metadata": {
     "name": ["H3>A","td:nth-child(3) > a","H1>SPAN"],
@@ -13,7 +13,7 @@
     "status": ["li:nth-child(5) > span:nth-child(2)"],
     "update": ["meta[name=Description]@attr->content@js->${this}.match(/新:(.*?) 作/)[1]"],
     "lastChapter": [""],
-    "link": ["h3>a@attr->href"],
+    "link": ["h3>a@attr->href","td:nth-child(3) > a@attr->href"],
     "catalog": []
   },
   "catalog": { 
@@ -21,26 +21,36 @@
     "orderBy": 0,
     "chapter": {
       "name": "a",
-      "link": "a@attr->rel"
+      "link": "a@attr->REL"
     }
   },
   "content": {
     "text":".noveltext",
-    "filter":["@div > div:nth-child(1)"]
+    "filter":["@SPAN","@A","@IMG","@font"]
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
     "list": "#search_result > div"
   },
 
+
+  
     "auth": {
-    "login": "http://www.jjwxc.net",
+    "login": "http://www.jjwxc.net/#",
     "cookie": "www.jjwxc.net",
    "verify":
    {
     "link": "http://my.jjwxc.net/backend/userinfo.php",
     "key": "#myjquerymenu > ul > li:nth-child(1) > a",
     "value": "【我的晋江】"
+  },
+    "vip": {
+      "key": "tr:nth-child(2) > td:nth-child(2)",
+      "value": "VIP章节订阅"
+    }
   }
-  }
+  
+  
+ 
+  
 }
