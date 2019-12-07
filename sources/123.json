@@ -1,5 +1,5 @@
 {
-  "name": "jj",
+  "name": "123",
   "version": 103,
   "category": 3,
   "url": "http://www.jjwxc.net",
@@ -26,7 +26,7 @@
   },
   "content": {
     "text":".noveltext",
-    "filter":["div:nth-child(323)"]
+    "filter":[".noveltext>DIV"]
   },
   "search": {
   "link": "http://www.jjwxc.net/search.php?kw=${key}&t=1",
