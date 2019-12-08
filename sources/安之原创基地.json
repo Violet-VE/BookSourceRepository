@@ -1,0 +1,56 @@
+{
+    "name": "安之原创基地",
+    "version": 101,
+    "category": 3,
+    "url": "http://www.azycjd.com",
+    "charset": "utf-8",
+    "metadata": {
+      "name": ["h3",".works_intro > p > span"],
+      "author": ["a > div > p:nth-child(2)@js->${this}.match('作者：(.+)')[1]",""],
+      "cover": ["a > img@attr->src",""],
+      "summary": [".summary > div.top_main > p"],
+      "category": [""],
+      "status": [".top_main.info_intro > p > span.style_one"],
+      "update": [],
+      "lastChapter": [],
+      "link": ["a@attr->href"],
+      "catalog": []
+    },
+    "catalog": { 
+      "list": ".catalog > ul>li",
+      "orderBy": 0,
+      "booklet": {
+        "name": "h3",
+        "list": "div"
+      },
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->HREF@js->'http://www.azycjd.com/'+${this}"
+      }
+    },
+    "content": {
+      "text":".novel>p"
+    },
+    "search": {
+    "link": "http://www.azycjd.com/webnovelmis/mobile/msearchresult@post->searchtxts=${key}",
+      "list": ".list_main > ul > li"
+    }
+    
+    "auth": {
+      "login": "http://www.azycjd.com/webnovelmis/mobile/mlogin",
+      "cookie": "azycjd.com",
+     "verify":
+     {
+      "link": "http://wx.azycjd.com/webnovelmis/front/centerreader",
+      "key": ".finance.toget > a > span",
+      "value": "我的财务"
+
+    },
+      "vip": {
+        "key": "",
+        "value": ""
+      }
+    }
+   
+    
+  }
