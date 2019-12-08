@@ -10,17 +10,18 @@
 | 书源 | API | 类型 | 排行榜 | 账号 | 版本 |
 | :----: | ------------- | :--: | :----: | :----: | :---: |
 | 废文网 | https://www.sosad.fun/ | 网文 | 0 | 是 | 1.0.6 |
-| 晋江 | http://www.jjwxc.net | 网文 | 6 | 是 | 1.0.5 |
+| 晋江 | http://www.jjwxc.net | 网文 | 0 | 是 | 1.0.5 |
 | 飞卢| https://b.faloo.com| 网文 | 0 | 是 | 1.0.1 |
-| 铁血读书| https://book.tiexue.net| 网文 | 5 | 是 | 1.0.5 |
+| 铁血读书| https://book.tiexue.net| 网文 | 0 | 是 | 1.0.5 |
 | 梧桐中文| http://www.wtzw.com| 网文 | 0 | 是 | 1.0.3 |
 | 连城读书| http://www.lcread.com/| 网文 | 0 | 是 | 1.1.0 |
 | i猎奇| https://ilieqi.net/| 网文 | 0 | 是 | 1.1.0 |
-| 天下书盟| http://www.fbook.net| 网文 | 6 | 是 | 1.0.1 |
+| 天下书盟| http://www.fbook.net| 网文 | 0 | 是 | 1.0.1 |
 | 书耽 | https://www.shubl.com| 网文 | 0 | 是 | 1.0.1 |
 | 17k | https://www.17k.com| 网文 | 0 | 是 | 1.1.4 |
 | 汤圆创作 | http://www.itangyuan.com| 网文 | 0 | 是 | 1.0.1 |
 | 指尖阅读 | http://www.lemengfun.com | 网文 | 0 | 是 | 1.0.5 |
+| 安之原创基地 | http://www.azycjd.com/ | 网文 | 0 | 是 | 1.0.1 |
 | i猎奇 | https://www.ilieqi.net/ | 网文 | 0 | 是 | 1.0.1 |
 | 露西弗俱乐部| https://www.lucifer-club.com| 网文 | 6 | 是 | 1.0.1 |
 | 耽美小说网 | http://www.zongheng.com | 网文 | 0 | 否 | 1.0.1 |
@@ -42,6 +43,7 @@
 * 铁血读书
 * 露西弗俱乐部
 * 飞卢
+* 安之原创基地
 * 梧桐中文
 * 汤圆创作
 
