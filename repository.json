@@ -44,6 +44,14 @@
       "auth": true,
       "version": 102
     },
+      {
+      "name": "雁北堂",
+      "url": "http://www.ebtang.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 103
+    },
     
     {
       "name": "铁血读书",
