@@ -1,0 +1,44 @@
+{
+"name": "雁北堂",
+"version": 103,
+"category": 3,
+"url": "http://www.ebtang.com",
+"charset": "UTF-8",
+"metadata": {
+"name": ["li@attr->d-name","meta[property=og:title]@attr->content"],
+"author": ["li@attr->d-nick","meta[property=og:novel:author]@attr->content"],
+"cover": ["li@attr->d-cover",".cover-wrapper.imgWrapper > a > img@attr->src"],
+"summary": ["meta[property=og:description]@attr->content"],
+"status": ["span.status"],
+"update": ["#bookDetail@attr->d-lasttime"],
+"lastChapter": ["#bookDetail@attr->d-lasttitle"],
+"link": ["li@attr->d-id@js->'http://www.ebtang.com/book/'+${this}"],
+"catalog": [".operate > a@attr->href"],
+"custom":["#bookDetail@attr->d-id"]
+},
+"catalog": {
+"list": "b",
+"orderBy": 0,
+"chapter": {
+"name": "b@attr->d-title",
+"link": "b@attr->d-id@js->'http://www.ebtang.com/book/readbook/'+${custom[0]}+'/'+${this}"
+}
+},
+"content": {
+"text": "$..content"
+},
+"search": {
+"link": "http://ebtang.com/book/search?searchName=${key}",
+"list": "ul > li"},
+"auth": {
+"login": "http://www.ebtang.com",
+"cookie": "ebtang.com",
+"verify": {
+"link": "http://www.ebtang.com/newuser/accounts",
+"key": "#app > div > div.nav > ul > li:nth-child(4) > a",
+"value": "我的账户"
+}
+
+
+}
+}
