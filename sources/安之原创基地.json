@@ -25,7 +25,7 @@
       },
       "chapter": {
         "name": "a",
-        "link": "a@attr->HREF@js->'http://www.azycjd.com/'+${this}"
+        "link": "a@attr->HREF@js->'http://www.azycjd.com'+${this}"
       }
     },
     "content": {
