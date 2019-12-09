@@ -6,8 +6,8 @@
     "charset": "utf-8",
     "metadata": {
       "name": ["h3",".works_intro > p > span"],
-      "author": ["a > div > p:nth-child(2)@js->${this}.match('作者：(.+)')[1]",""],
-      "cover": ["a > img@attr->src",""],
+      "author": ["a > div > p:nth-child(2)@js->${this}.match('作者：(.+)')[1]"],
+      "cover": ["a > img@attr->src"],
       "summary": [".summary > div.top_main > p"],
       "category": [""],
       "status": [".top_main.info_intro > p > span.style_one"],
