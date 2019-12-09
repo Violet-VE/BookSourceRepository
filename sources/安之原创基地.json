@@ -34,7 +34,7 @@
     "search": {
     "link": "http://www.azycjd.com/webnovelmis/mobile/msearchresult@post->searchtxts=${key}",
       "list": ".list_main > ul > li"
-    }
+    },
     
     "auth": {
       "login": "http://www.azycjd.com/webnovelmis/mobile/mlogin",
