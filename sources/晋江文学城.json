@@ -1,0 +1,55 @@
+{
+  "name": "晋江文学城",
+  "version": 110,
+  "category": 3,
+  "url": "https://m.jjwxc.net",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["$.novelname","$.novelName"],
+    "author": ["$.authorname","$.authorName"],
+    "cover": ["$.cover"],
+    "summary": ["$.novelIntro@js->${this}.replace(/&lt;br/&gt;+/g,'<br>')"],
+    "category": ["$.novelClass"],
+    "status": ["$.novelStep@js->if(${this} == '2') '完结'; else '连载'"],
+    "update": ["$.renewDate"],
+    "lastChapter": ["$.renewChapterName"],
+    "link": ["$.novelid@attr->href@js->'http://app-cdn.jjwxc.net:80/androidapi/novelbasicinfo?novelId='+${this}"],
+    "catalog": ["$.novelId@attr->href@js->'https://m.jjwxc.net/book2/'+${this}+'?more=0&whole=1'"],
+    "custom":["$.novelId"]
+  },
+  "catalog": { 
+    "list": ".b>div:nth-child(3)>a:nth-child(n+2)",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a@js->${this}.replace(/&nbsp+/g, ' ')",
+      "filter":["@div:nth-child(9) > div:nth-child(6)"],
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "DIV:NTH-CHILD(2)>UL>LI"
+  },
+  "search": {
+  "link": "http://app.jjwxc.org/androidapi/search?keyword=${key}&type=1&page=1&token=null&searchType=1&sortMode=DESC&versionCode=126${key}",
+    "list": "$.items[*]"
+  }
+,
+"auth": {
+    "login": "https://m.jjwxc.net/my/login?login_mode=jjwxc",
+    "cookie": "m.jjwxc.net",
+"verify":
+   {
+    "link": "https://m.jjwxc.net/my",
+    "key": "h2",
+    "value": "首页>我的晋江"
+  },
+"vip": {
+        "key": ".b>font@js->${this}.match('(.+)，')[1]",
+        "value": "VIP章节"
+      }
+  }
+
+
+
+
+}
