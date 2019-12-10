@@ -151,6 +151,14 @@
       "auth": true,
       "version": 102
     },
+          {
+      "name": "掌阅小说网",
+      "url": "http://yc.ireader.com.cn",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },  
       {
       "name": "卡夜阁",
       "url": "https://www.kayege.net",
