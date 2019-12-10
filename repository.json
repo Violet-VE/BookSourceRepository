@@ -1,6 +1,6 @@
 {
   "name": "温某某",
-  "summary": "增加雁北堂\n增加安之原创基地\n修复晋江正文内容\nv1.1.4",
+  "summary": "增加雁北堂\n增加黑岩\n增加晋江文学城\nv1.1.5",
   "list": [
      
     {
@@ -11,7 +11,14 @@
       "auth": true,
       "version": 101
     },
-
+    {
+      "name": "晋江文学城",
+      "url": "https://m.jjwxc.net",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 110
+    }, 
     {
       "name": "晋江",
       "url": "http://www.jjwxc.net",
@@ -28,14 +35,6 @@
       "auth": true,
       "version": 101
     },    
- {
-      "name": "JJV",
-      "url": "http://www.jjwxc.net/",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 102
-    }, 
    {
       "name": "天下书盟",
       "url": "http://www.fbook.net",
@@ -87,16 +86,22 @@
       "auth": true,
       "version": 110
     },  
-        
-
-     {
-      "name": "新书在线",
-      "url": "http://www.xinshuxs.com",
+    {
+      "name": "书山",
+      "url": "http://shushan.zhangyue.net",
       "category": 1,
       "rank": 0,
-      "auth": false,
+      "auth": true,
       "version": 101
-    },   
+    },  
+     {
+      "name": "黑岩",
+      "url": "https://www.heiyan.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },     
     
         {
       "name": "汤圆创作",
