@@ -1,0 +1,56 @@
+{
+    "name": "书山",
+    "version": 101,
+    "category": 3,
+    "url": "http://shushan.zhangyue.net",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": [".book-info>a","p > span.book-name.arow"],
+      "author": [".gray-info > span.author-name",".author-name"],
+      "cover": ["a > img@attr->data-src"],
+      "summary": ["P.paragragh rows"],
+      "category": [""],
+      "status": [".other-info > a:nth-child(1)"],
+      "update": [""],
+      "lastChapter": [""],
+      "link": [".book-info>a@attr->href"],
+      "catalog": [".detail-info-main-left > div > a@attr->href"]
+    },
+    "catalog": { 
+      "list": "ul>li.chapter-li",
+      "orderBy": 0,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": ".content > div > div.body-main > div.art_box > div > div"
+    },
+    "search": {
+    "link": "http://shushan.zhangyue.net/search/${key}/",
+      "list": ".result-list>ul>li"
+    }
+,
+
+
+"auth": {
+  "login": "http://wap.shushan.zhangyue.net/user/login",
+  "cookie": "wap.shushan.zhangyue.net",
+  "verify":
+ {
+  "link":"http://wap.shushan.zhangyue.net/user/page?type=account",
+  "key": ".logout-btn.user-info > span",
+  "value": "退出登录"
+}
+,
+    "vip": {
+      "key": "p.sub-title",
+      "value": "这是VIP章节 需要订阅后才能阅读"
+    }
+}
+
+
+
+
+  }
