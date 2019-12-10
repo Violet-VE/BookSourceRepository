@@ -1,0 +1,51 @@
+{
+  "name": "掌阅小说网",
+  "version": 101,
+  "category": 3,
+  "url": "http://yc.ireader.com.cn",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["h4"],
+    "author": [".book_aut"],
+    "cover": [".book_box > a > img@attr->src"],
+    "summary": [".book_int_con > div.div1 > p"],
+    "category": [""],
+    "status": [".book_card_mid >.div2 > span:nth-child(2)@js->if(${this} == '状态：连载中') '连载'; else '完结'"],
+    "update": [".book_int_con > div.div2 > div > span"],
+    "lastChapter": [".book_int_con > div.div2 > div > a"],
+    "link": ["h4>a@attr->href"],
+    "catalog": [".book_btns > a:nth-child(2)@attr->href"]
+  },
+  "catalog": { 
+    "list": ".cata_list>ul>li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": ".read_text>p"
+  },
+  "search": {
+  "link": "http://yc.ireader.com.cn/search/${key}/",
+    "list": ".result-list>ul>li"
+  }
+
+
+  ,
+
+
+  "auth": {
+    "login": "http://yc.ireader.com.cn",
+    "cookie": "yc.ireader.com.cn"
+  ,
+    "vip": {
+      "key": "#mod_chapter_buy > h4",
+      "value": "这是VIP章节 需要订阅后才能阅读"
+    }    
+      
+  }
+
+
+}
