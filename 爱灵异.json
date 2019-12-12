@@ -1,0 +1,40 @@
+{
+    "name": "爱灵异",
+    "version": 101,
+    "category": 1,
+    "url": "https://www.ailingyi.com",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": ["h3>a"],
+      "author": ["h3>span@js->${this}.match('作者:(.+)')[1]"],
+      "cover": [".list_img>a>img@attr->src"],
+      "summary": [".list_desc>p"],
+      "category": [""],
+      "status": ["h3>a@js->if(${this} != '') '完结'; else '连载'"],
+      "update": ["meta[property=og:novel:update_time]@attr->content"],
+      "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
+      "link": ["h3>a@attr->href","a@attr->href"],
+      "catalog": []
+    },
+    "catalog": {
+      "list": ".container>ul > li",
+      "orderBy": 0,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": ".post_entry",
+      "filter":["@h2"]
+    },
+  
+    
+    "search": {
+      "link": "https://www.ailingyi.com/search?key=${key}",
+      "list": ".list_item"
+    }
+  
+  
+  }
+  
