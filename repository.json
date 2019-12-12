@@ -18,14 +18,6 @@
       "rank": 0,
       "auth": true,
       "version": 110
-    }, 
-    {
-      "name": "晋江",
-      "url": "http://www.jjwxc.net",
-      "category": 1,
-      "rank": 0,
-      "auth": true,
-      "version": 102
     },
   {
       "name": "露西弗俱乐部",
@@ -158,7 +150,28 @@
       "rank": 0,
       "auth": true,
       "version": 101
-    },  
+    },  {
+      "name": "白熊阅读",
+      "url": "https://wwwj.bearead.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },{
+      "name": "豆腐",
+      "url": "https://m.doufu.la",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },{
+      "name": "爱灵异",
+      "url": "https://www.ailingyi.com",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 101
+    },
       {
       "name": "卡夜阁",
       "url": "https://www.kayege.net",
@@ -206,6 +219,14 @@
       "rank": 0,
       "auth": false,
       "version": 101
+    }, 
+ {
+      "name": "晋江",
+      "url": "http://www.jjwxc.net",
+      "category": 1,
+      "rank": 0,
+      "auth": true,
+      "version": 102
     }
 
       
