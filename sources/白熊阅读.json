@@ -1,0 +1,45 @@
+{
+    "name": "白熊阅读",
+    "version": 001,
+    "category": 3,
+    "url": "https://wwwj.bearead.com",
+    "charset": "UTF-8",
+    "metadata": {
+      "name": [".title>a",".articleHead"],
+      "author": [".other > a > span"],
+      "cover": ["a:nth-child(1) > img@attr->src"],
+      "summary": ["p.desc"],
+      "category": [""],
+      "status": [".serialStatus > span@js->if(${this} == '连载中') '连载'; else '完结'"],
+      "update": ["span.updateTime@js->{this}.match('(.+)更新')[1]"],
+      "lastChapter": ["span.updateTime@js->{this}.match('更新(.+)')[1]"],
+      "link": [".title>a@attr->href"],
+      "catalog": [""]
+    },
+    "catalog": { 
+      "list": ".chapterlist>li",
+      "orderBy": 0,
+      "chapter": {
+        "name": "a",
+        "link": "a@attr->href"
+      }
+    },
+    "content": {
+      "text": ".article_main@js->{this}.match(/&lt;/p&gt;.*?&quot;&gt;/g,'\n')"
+    },
+    "search": {
+    "link": "https://wwwj.bearead.com/search?query=${key}",
+      "list": ".list-wrap>.item"
+    }
+,
+
+
+"auth": {
+  "login": "https://www.bearead.com/mobile/readNewWebLogin.html?type=includeLogin&hrefUrl=https://v2.bearead.com/tag",
+  "cookie": "bearead.com"
+}
+
+
+
+
+  }
