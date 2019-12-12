@@ -1,8 +1,8 @@
 {
   "name": "飞卢",
-  "version": 102,
+  "version": 103,
   "category": 3,
-  "url": "https://b.faloo.com/",
+  "url": "https://b.faloo.com",
   "charset": "GBK",
   "metadata": {
     "name": ["h1>a",".ni_10 > h1"],
@@ -10,22 +10,28 @@
     "cover": ["img@attr->src",".ni_5 > a > img@attr->src"],
     "summary": [".l_con>A","#con_tab11_box1 > a"],
     "category": ["span:nth-child(3) > a"],
-    "status": [""],
-    "update": [".ni_12@js->${this}.match(/新：(.*)/)[1]"],
+    "status": [".ni_12@js->if(${this} != '') '连载'; else '完结'"],
+    "update": [".ni_12@js->${this}.match('更新：(.+)')[1]"],
     "lastChapter": [" h1 > a"],
     "link": ["h1>a@attr->href"],
     "catalog": []
   },
   "catalog": { 
-    "list": ".td_0",
+    "list": ".ni_list>table",
     "orderBy": 0,
+    
+     "booklet": {
+      "name": "h1",
+      "list": "tbody > tr> td"
+    },
    "chapter": {
-      "name": " .td_0>a",
+      "name": "a",
       "link": "a@attr->href"
     }
   },
   "content": {
-    "text": "#content"
+    "text": "#content",
+     "filter":["@#content > div"]
   },
   "search": {
   "link": "https://b.faloo.com/l/0/1.html?t=1&k=${key}",
@@ -40,16 +46,16 @@
  "link": "https://u.faloo.com/AccountInfo.aspx",
  "key": "span.spanOut > a",
  "value": "【退出】"
-}
-} ,
+},
     "vip": {
-      "key": "#content > font:nth-child(2)",
+      "key": "font:nth-child(2)",
       "value": "您还没有订阅本章节(VIP章节)，请选择订阅方式："
     }
+ 
+} 
+
+
 
 
 
 }
-
-
-
