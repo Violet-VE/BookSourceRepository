@@ -10,7 +10,7 @@
       "cover": [".list_img>a>img@attr->src"],
       "summary": [".list_desc>p"],
       "category": [""],
-      "status": ["h3>a@js->if(${this} != '') '完结'; else '连载'"],
+      "status": ["h3>a@js->if(${this} != '') '连载'; else '完结'"],
       "update": ["meta[property=og:novel:update_time]@attr->content"],
       "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
       "link": ["h3>a@attr->href","a@attr->href"],
