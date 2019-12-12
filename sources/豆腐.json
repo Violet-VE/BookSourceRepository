@@ -1,0 +1,35 @@
+{
+  "name": "豆腐",
+  "version": 101,
+  "category": 3,
+  "url": "https://m.doufu.la",
+  "charset": "UTF-8",
+  "metadata": {
+    "name": ["$.title"],
+    "author": ["$.author"],
+    "cover": ["$.images[*].imgUrl"],
+    "summary": [".summary_format"],
+    "category": [""],
+    "status": ["meta[property=og:novel:status]@attr->content@js->if(${this} == '状态：连载中') '连载'; else '完结'"],
+    "update": ["meta[property=og:novel:update_time]@attr->content"],
+    "lastChapter": ["meta[property=og:novel:latest_chapter_name]@attr->content"],
+    "link": ["$.shareUrl"],
+    "catalog": [".book_catalogue>a@attr->href"]
+  },
+  "catalog": { 
+    "list": ".catalogue_item",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href@js->'http://api.doufu.la:80/index.php/post/view/'+${this}.match(/[0-9]+/)+'?with_ids=1&type=read'"
+    }
+  },
+  "content": {
+    "text": "$..detail.content"
+  },
+  "search": {
+  "link": "http://api.doufu.la:80/search/content?keyword=${key}&start=0&rows=20&types=18",
+    "list": "$.data[*]"
+  }
+  
+}
